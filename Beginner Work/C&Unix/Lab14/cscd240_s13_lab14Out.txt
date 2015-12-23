@@ -1,0 +1,50 @@
+Please Enter a String:Hey check out how awesome my program works
+
+
+Menu
+1) Enter a new string
+2) Print string statistics
+3) Quit
+Choice-->2
+
+
+There were 8 words in the string
+The longest word was 7 letters in size
+
+
+Menu
+1) Enter a new string
+2) Print string statistics
+3) Quit
+Choice-->7
+
+
+Invalid choice! Try Again!
+
+Menu
+1) Enter a new string
+2) Print string statistics
+3) Quit
+Choice-->1
+
+
+Please Enter a String:Hey its still working
+
+
+Menu
+1) Enter a new string
+2) Print string statistics
+3) Quit
+Choice-->2
+
+
+There were 4 words in the string
+The longest word was 7 letters in size
+
+
+Menu
+1) Enter a new string
+2) Print string statistics
+3) Quit
+Choice-->3
+

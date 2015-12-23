@@ -1,0 +1,121 @@
+
+
+printf("%p\n", twod);
+
+This will print out the memory address of the twod double
+pointer:
+0xbf882b30
+
+
+printf("twod is: %?\n", twod);
+
+Again this is going to print out the memory address of
+twod. This is an int array pointer with four collums:
+twod is: 0xbf882b30
+
+
+printf("twod + 3 is: %?\n", twod + 3);
+
+This will add 12 to the base address of twod, then print the
+resulting address(type is int array pointer with four collums):
+twod + 3 is: 0xbf882b3c
+
+
+printf("*(*(twod + 1)) is: %?\n", *(*(twod + 1)));
+
+This will add 4 to the base address of twod, then dereference it
+to print the integer value stored at this address(type int):
+*(*(twod + 1)) is: 8
+
+
+printf("*twod + 1 is: %?\n", *twod+1);
+
+This will add 4 to the base address of twod then print the
+address(type is int array pointer):
+*twod + 1 is: 0xbf882b34
+
+
+printf("*twod[2] is: %?\n", *twod[2]);
+
+This will print out the base address for the point of the 
+third row of the array(type int pointer):
+*twod[2] is:0xbf882b44
+
+
+printf("*(twod + 2) + 2 is: %?\n", *(twod + 2) + 2);\
+
+This will add 8 to the base address of twod moving down
+two rows, then add another 8 moving over two collums then
+print the resulting address(type int pointer):
+*(twod + 2) + 2 is: 0xbf882b4c
+
+
+printf("twod[1] is: %?\n", twod[1]);
+
+This will print out the memory address for the pointer
+of the second array in the 2D array(type int array pointer):
+twod[1] is: 0xbf882b3c
+ 
+
+printf("twod[1][2] is: %?\n", twod[1][2]);
+
+This will print out the integer value stored at the address
+of the second row and third collum of the 2D array(type int):
+twod[1][2] is: 12
+
+
+int *ptr;
+
+This will initialize a pointer variable
+
+
+ptr = * twod;
+
+This will give ptr the same memory address as twod
+
+
+printf("ptr %p\n", ptr);
+
+This will print the memory address of ptr
+(type is int array pointer with four collums):
+ptr 0xbf882b30
+
+
+printf("twod [1] %?\n", twod [1]);
+
+This will print the address of the array pointer for the
+second row in the 2D array(type int array pointer):
+twod [1] 0xbf882b3c
+
+
+printf("ptr[1] %?\n", ptr[1]);
+
+This will print the address of the array pointer for the
+second row in the 2D array(type int array pointer):
+ptr[1] 0xbf882b3c
+
+
+printf("ptr[1] %?\n", ptr[1]);
+
+This will print the address of the array pointer for the
+second row in the 2D array(type int array pointer):
+ptr[1] 0xbf882b3c
+
+
+printf("twod + 1 %?\n", twod+1);
+
+This will add 4 to the base address of twod then print the
+address(type is int array pointer):
+twod + 1 0xbf882b3c
+
+
+printf("ptr[10] %?\n", ptr[10]);
+
+This code shouldn't work or it will cause errors because
+there are not 10 rows in the 2D array(if it does it will
+be a int array pointer)
+
+
+a) Yes it should be possible to compile using ptr[1][2]. ptr should behave
+just like the twod pointer in this way. ptr[1][2] should point to the value
+stored at the second row and third collum just like twod[1][2] would.

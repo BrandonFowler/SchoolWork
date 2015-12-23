@@ -1,0 +1,102 @@
+How many numbers?(Between 1 and 25)50
+How many numbers?(Between 1 and 25)5
+
+ 
+Please enter 5 numbers: 
+
+ 
+9
+13
+17
+8
+3
+
+ 
+Please choose: 
+ 
+1) Change values in the array 
+ 
+2) Change N and the values in the array 
+ 
+3) Find and display the mean 
+ 
+   Find and display the median 
+ 
+Choice-->9
+
+ 
+Please choose: 
+ 
+1) Change values in the array 
+ 
+2) Change N and the values in the array 
+ 
+3) Find and display the mean 
+ 
+   Find and display the median 
+ 
+Choice-->1
+
+ 
+
+ 
+Please enter 5 numbers: 
+
+ 
+8
+2
+9
+2
+5
+
+ 
+Go Again: y
+
+ 
+Please choose: 
+ 
+1) Change values in the array 
+ 
+2) Change N and the values in the array 
+ 
+3) Find and display the mean 
+ 
+   Find and display the median 
+ 
+Choice-->2
+
+ 
+How many numbers?(Between 1 and 25)4
+
+ 
+Please enter 4 numbers: 
+
+ 
+17
+3
+2
+8
+
+ 
+Go Again: y
+
+ 
+Please choose: 
+ 
+1) Change values in the array 
+ 
+2) Change N and the values in the array 
+ 
+3) Find and display the mean 
+ 
+   Find and display the median 
+ 
+Choice-->3
+
+ 
+The Mean is: 7.500000      The Median is: 5.500000 
+ 
+
+ 
+Go Again: n
+

@@ -1,0 +1,6 @@
+Shape not valid:
+Point1: (1.0,1.0) Point2: (2.0,2.0) Point3: (3.0,3.0) Point4: (4.0,4.0)
+Shape not valid:
+Point1: (0.0,1.0) Point2: (1.0,5.0) Point3: (3.0,0.0) Point4: (0.0,2.0)
+Shape not valid:
+Point1: (4.0,2.0) Point2: (2.0,1.0) Point3: (2.0,2.0) Point4: (4.0,1.0)

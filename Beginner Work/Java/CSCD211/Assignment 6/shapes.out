@@ -1,0 +1,7 @@
+Name: Parallelogram, Area: 3.0, Perimeter: 8.0, Point1: (0.0,0.0), Point2: (1.0,1.0), Point3: (4.0,1.0), Point4: (3.0,0.0)
+Name: Parallelogram, Area: 6.0, Perimeter: 10.0, Point1: (1.0,1.0), Point2: (2.0,3.0), Point3: (5.0,3.0), Point4: (4.0,1.0)
+Name: Parallelogram, Area: 9.0, Perimeter: 18.0, Point1: (0.0,2.0), Point2: (3.0,3.0), Point3: (-6.0,3.0), Point4: (-9.0,2.0)
+Name: Rectangle, Area: 2.0, Perimeter: 6.0, Point1: (0.0,0.0), Point2: (-2.0,0.0), Point3: (-2.0,-1.0), Point4: (0.0,-1.0)
+Name: Rectangle, Area: 6.0, Perimeter: 10.0, Point1: (-1.0,-1.0), Point2: (-4.0,-1.0), Point3: (-4.0,-3.0), Point4: (-1.0,-3.0)
+Name: Square, Area: 1.0, Perimeter: 4.0, Point1: (0.0,0.0), Point2: (0.0,1.0), Point3: (1.0,1.0), Point4: (1.0,0.0)
+Name: Square, Area: 4.0, Perimeter: 8.0, Point1: (1.0,1.0), Point2: (1.0,3.0), Point3: (3.0,3.0), Point4: (3.0,1.0)

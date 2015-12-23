@@ -1,0 +1,139 @@
+#include<stdio.h>
+#include<stdlib.h>
+#include<string.h>
+
+const int MAX = 52;
+
+int main()
+{
+    string players[] = getPlayerNames();
+    string suits[4] = {"Spades", "Hearts", "Diamonds", "Clubs"};
+    string ranks[13] = {"2", "3", "4", "5", "6", "7", "8", "9", "10", "Jack", "Queen", "King", "Ace"};
+    int deck[MAX];
+    fillDeck(deck);
+    int shufflemeh=0;
+    shufflemeh = askPlayer(players[]);
+    shuffleDeck(deck);
+    drawCards(deck[], players[], ranks[], suits[]);
+}
+
+int askPlayer(string players[])
+{
+    int answer=0;
+    printf("Hey! %s, how many times you wanna shuffle? ");
+    scanf("%d", answer);
+    //while loop \n murderer
+    return answer;
+}
+
+void fillDeck(int deck[])
+{
+    int i;
+    for (i = 0; i<MAX; i++)
+    {
+        array[i] = i;
+    }
+}
+
+void shuffleDeck(int deck[])
+{
+    int i;
+    int temp;
+    int randIndex;
+   
+    for(i=0;i<MAX;i++)
+    {
+        randIndex = 0;
+        temp = deck[i];
+        deck[i] = deck[randIndex];
+        deck[randIndex] = temp;
+    }
+}
+
+string[] getPlayerNamesString()
+{
+    string array[2];
+    printf("Enter Player 1 Name: ");
+    fgets("%s", array[0]);
+    printf("\nEnter Player 2 Name: ");
+    fgets("%s", array[1]);
+    return array;
+}
+
+string[] getPlayerNames()
+{
+    char name1[100];
+    char name2[100];
+    printf("Enter Player 1 Name: ");
+    fgets("%s", name1);
+    strip(name1);
+    printf("\nEnter Player 2 Name: ");
+    fgets("%s", name2);
+    strip(name2);
+    string array[2]{name1, name2};
+    return array;
+}
+
+void strip(char array[])
+{
+    int len = strlen(array);
+    if(array[len - 2] == '\r')
+        array[len - 2] = '\0';
+
+    else if(array[len -1] == '\n')
+        array[len -1] = '\0';
+}
+
+void drawCards(int deck[], string players[], string ranks[], string suits[])
+{
+
+int i;
+int j;
+int games = 26;
+int wins[3];
+string suit;
+string rank;
+int player1card;
+int player2card;
+
+    for (i = 0; i < MAX; i=i+2)
+    {
+        player1card = deck[i];
+        suit = player1card / 13];
+        rank = player1card % 13];
+        printf("%s draws card numer %d an %s of %s", Players[0], player1card, rank, suit);
+       
+        player2card = deck[i+1];
+        suit = player2card / 13];
+        rank = player2card % 13];
+        printf("%s draws card numer %d an %s of %s", Players[1], player2card, rank, suit);
+       
+        if (player1card %13 - player2card%13 > 0)
+        {
+            wins[0] = wins[0]++;
+        }
+        else if (player1card %13 - player2card%13 < 0)
+        {
+            wins[1] = wins[1]++;
+        }
+        else
+        {
+            wins[2] = wins[2]++;
+        }
+
+    }
+    printf("Player: %s, wins %d times", Players[0], wins[0]);
+    printf("\nPlayer: %s, wins %d times", Players[1], wins[1]);
+    if (wins[0] > wins[1])
+    {
+        printf("\nPlayer: %s wins! with %d ties", Players[0], wins[2]);
+    }
+    else if(wins[0] < wins[1])
+    }
+        printf("\nPlayer: %s wins! with %d ties", Players[1], wins[2]);
+    }
+    else
+    {
+        printf("\nThey Tied! WHAT! YOU SUCK.");
+    }
+}

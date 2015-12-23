@@ -1,0 +1,26 @@
+twod		0xbf882b30
+
+twod[0][0]	0xbf882b30
+
+two[0][1]	0xbf882b34
+
+two[0][2] 	0xbf882b38
+
+twod[1][0]	0xbf882b3c
+
+twod[1][1]	0xbf882b3c
+
+twod[1][2]	0xbf882b40
+
+twod[2][0]	0xbf882b44
+
+twod[2][1]	0xbf882b48
+
+twod[2][2]	0xbf882b4c
+
+twod[3][0]	0xbf882b50
+
+twod[3][1]	0xbf882b54
+
+twod[3][2]	0xbf882b54
+

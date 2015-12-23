@@ -1,0 +1,17 @@
+#include "countRecords.h"
+
+
+int countRecords(FILE * fin, int linesPerRec)
+{
+	int count = 0;
+	char temp[100];
+	fgets(temp,100,fin);
+	while(!feof(fin))
+	{
+		count++;
+		fgets(temp,100,fin);
+	}
+	int countR = count/linesPerRec;
+	return countR;
+}
+

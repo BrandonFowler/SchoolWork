@@ -1,0 +1,15 @@
+0xbfedd200 			//My answer looks right
+twod is: 0xbfedd200 		//My answer looks right
+twod + 3 is: 0xbfedd224 	//My answer looks right
+*(*(twod + 1)) is: 8 		//My answer looks right
+*twod + 1 is: 0xbfedd204 	//My answer looks right
+*twod[2] is: 14 //My answer is wrong, I missunder stood that a memory address was 			being dereferenced, I was confused without the parenthasese
+*(twod + 2) + 2 is: 0xbfedd220 	//My answer looks right
+twod[1] is: 0xbfedd20c 		//My answer looks right
+twod[1][2] is: 12 		//My answer looks right
+ptr 0xbfedd200 			//My answer looks right
+twod [1] 0xbfedd20c 		//My answer looks right
+ptr[1] 4 //My answer is wrong, I thought this would give an address, ptr must have 		 only been given the address for the first array, not the entire 2D array 
+ptr[1] 4 //My answer is wrong, I thought this would give an address, ptr must have 		 only been given the address for the first array, not the entire 2D array 
+twod + 1 0xbfedd20c 		//My answer looks right
+ptr[10] 22//My answer is wrong, I thought this code wouldn't work. It did because 		  the memory location exists and behind the scenes the 2D array is really a 		  long 1D array.

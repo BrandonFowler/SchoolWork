@@ -1,0 +1,97 @@
+//Executed Code
+arr 0xbf87caf8
+aptr 0xbf87caf8
+//My Guess: Looks Correct
+arr 0xbfb85058
+aptr 0xbfb85058
+
+
+//Executed Code
+arr[1] 0xbf87cafc
+arr[2] 0xbf87cb00
+&aptr 0xbf87caf4
+//My Guess: Looks Correct
+arr[1] 0xbfb8505c
+arr[2] 0xbfb85060
+&aptr 0xbfb85054
+
+
+//Exectuted Code
+*aptr 4
+aptr 0xbf87cafc
+//My Guess: Looks like I miss calaculated the
+//new address
+*aptr 2
+aptr 0xbfb85058
+
+
+//Executed Code
+*++aptr 6
+aptr 0xbf87cb00
+//My Guess: Looks like I miss calculated the
+//address again 
+*++aptr 4
+aptr 0xbfb85058
+
+
+//Executed Code
+*aptr++ 6
+aptr 0xbf87cb04
+//My Guess: I should have incremented the base
+//address then de-referenced it
+*aptr++ 3
+aptr 0xbfb85058
+
+
+//Executed Code
+*aptr 9
+aptr 0xbf87cb04
+//My Guess: My numbers are messed up now because of
+//earlyer bad guesses
+*aptr 3
+aptr 0xbfb85058
+
+
+//Executed Code
+*(aptr+1) 10
+//My Guess: Still wrong because of earlyer mistakes
+//as far as I can tell
+*(aptr+1) 4
+
+
+//Executed Code
+*(arr+2) 109
+//My Guess: Still wrong because of earlyer mistakes
+//as far as I can tell
+*(arr+2) 102
+
+
+//Executed Code
+*aptr 12
+aptr 0xbf87cb0c
+//My Code: Looks correct, Back on track
+*aptr 12
+aptr 0xbfb8506c
+
+
+//Executed Code
+*arr[2] 17
+//My Guess: I got confused with addresses
+//Looks like the address at arr[2] is the
+//one calculated earlyer
+*arr[2] 6
+
+
+//Executed Code
+aptr 0xbf87cb20
+*aptr 134514304
+//My Guess: Way off I don't know what happened here
+aptr 0xbfb8507c
+*aptr 20
+
+//The very last chunk of code I deleted because it did not work when compilling
+//This is what I stated in my guess:
+This line should cause an error. The address pf aptr will
+be dereferenced giveing the int stored at that location. 4 will be
+added to the int giving us a value of 24. Then it will attempt to store
+another int at 24, which should cause problems.

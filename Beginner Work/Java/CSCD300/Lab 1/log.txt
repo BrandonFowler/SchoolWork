@@ -1,0 +1,174 @@
+Driver name: Big Bubba Bruce
+Maximum number of packages that truck can carry: 8
+
+PACKAGE LOADING INFORMATION:
+----------------------------
+Package Type: Box
+Tracking Number: 990061
+Weight: 45 Pounds
+Length: 8 Inches
+Width: 10 Inches
+Height: 32 Inches
+Loaded
+
+Package Type: Letter
+Tracking Number: 123450
+Weight: 10 Ounces
+Length: 12 Inches
+Width: 12 Inches
+Loaded
+
+Package Type: Unknown
+Tracking Number: -205560
+Weight: 2 Pounds
+Length: 5 Inches
+Width: 5 Inches
+Height: 0 Inches
+Not Loaded: Unknown Package type
+
+Package Type: Box
+Tracking Number: 5555551
+Weight: 99 Pounds
+Length: 36 Inches
+Width: 36 Inches
+Height: 36 Inches
+Loaded
+
+Package Type: Letter
+Tracking Number: 123890
+Weight: 25 Ounces
+Length: 10 Inches
+Width: 10 Inches
+Not Loaded: To Heavy
+
+Package Type: Box
+Tracking Number: 656561
+Weight: 50 Pounds
+Length: 36 Inches
+Width: 36 Inches
+Height: 37 Inches
+Not Loaded: To Big
+
+Package Type: Box
+Tracking Number: 3456541
+Weight: -1 Pounds
+Length: 5 Inches
+Width: 5 Inches
+Height: 5 Inches
+Not Loaded: Invalid information
+
+Package Type: Letter
+Tracking Number: 879880
+Weight: 1 Ounces
+Length: 1 Inches
+Width: 1 Inches
+Loaded
+
+Package Type: Letter
+Tracking Number: 890980
+Weight: 2 Ounces
+Length: 2 Inches
+Width: 2 Inches
+Loaded
+
+Package Type: Box
+Tracking Number: 473211
+Weight: 32 Pounds
+Length: 10 Inches
+Width: 23 Inches
+Height: 9 Inches
+Loaded
+
+Package Type: Letter
+Tracking Number: 442590
+Weight: 7 Ounces
+Length: 10 Inches
+Width: 12 Inches
+Loaded
+
+Package Type: Unknown
+Tracking Number: 447822
+Weight: 5 Pounds
+Length: 8 Inches
+Width: 2 Inches
+Height: 9 Inches
+Not Loaded: Unknown Package type
+
+Package Type: Letter
+Tracking Number: 776430
+Weight: 4 Ounces
+Length: -1 Inches
+Width: 90 Inches
+Not Loaded: To Big
+
+Package Type: Letter
+Tracking Number: 889030
+Weight: 8 Ounces
+Length: 10 Inches
+Width: 10 Inches
+Loaded
+
+Package Type: Letter
+Tracking Number: 973450
+Weight: 3 Ounces
+Length: 9 Inches
+Width: 9 Inches
+Not Loaded: Truck Full
+
+PACKAGE UNLOADING INFORMATION:
+------------------------------
+Package Type: Letter
+Tracking Number: 879880
+Weight: 1 Ounces
+Length: 1 Inches
+Width: 1 Inches
+
+Package Type: Letter
+Tracking Number: 890980
+Weight: 2 Ounces
+Length: 2 Inches
+Width: 2 Inches
+
+Package Type: Letter
+Tracking Number: 442590
+Weight: 7 Ounces
+Length: 10 Inches
+Width: 12 Inches
+
+Package Type: Letter
+Tracking Number: 889030
+Weight: 8 Ounces
+Length: 10 Inches
+Width: 10 Inches
+
+Package Type: Letter
+Tracking Number: 123450
+Weight: 10 Ounces
+Length: 12 Inches
+Width: 12 Inches
+
+Package Type: Box
+Tracking Number: 473211
+Weight: 32 Pounds
+Length: 10 Inches
+Width: 23 Inches
+Height: 9 Inches
+
+Package Type: Box
+Tracking Number: 990061
+Weight: 45 Pounds
+Length: 8 Inches
+Width: 10 Inches
+Height: 32 Inches
+
+Package Type: Box
+Tracking Number: 5555551
+Weight: 99 Pounds
+Length: 36 Inches
+Width: 36 Inches
+Height: 36 Inches
+
+FINAL TRUCK INFORMATION:
+------------------------
+Packages Delivered: 8
+Total weight of packages 176 pounds 28 Ounces

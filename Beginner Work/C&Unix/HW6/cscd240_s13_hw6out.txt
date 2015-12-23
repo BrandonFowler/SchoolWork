@@ -1,0 +1,116 @@
+Please enter a number 256
+
+One: 256
+
+
+Please enter a number 8731
+
+Two: 8731
+
+Select from the following:
+1) Print Number 1 & Number 2
+2) Change Number 1
+3) Change Number 2
+4) Add Number 2 to Number 1
+5) Subtract Number 2 from Number 1
+6) Quit
+Choice-->1
+
+One: 256
+
+
+Two: 8731
+
+Select from the following:
+1) Print Number 1 & Number 2
+2) Change Number 1
+3) Change Number 2
+4) Add Number 2 to Number 1
+5) Subtract Number 2 from Number 1
+6) Quit
+Choice-->4
+
+The result is: 8987
+
+Select from the following:
+1) Print Number 1 & Number 2
+2) Change Number 1
+3) Change Number 2
+4) Add Number 2 to Number 1
+5) Subtract Number 2 from Number 1
+6) Quit
+Choice-->5
+
+The result is: -8475
+
+Select from the following:
+1) Print Number 1 & Number 2
+2) Change Number 1
+3) Change Number 2
+4) Add Number 2 to Number 1
+5) Subtract Number 2 from Number 1
+6) Quit
+Choice-->2
+
+Please enter a number -789
+
+One: -789
+
+Select from the following:
+1) Print Number 1 & Number 2
+2) Change Number 1
+3) Change Number 2
+4) Add Number 2 to Number 1
+5) Subtract Number 2 from Number 1
+6) Quit
+Choice-->3
+
+Please enter a number 50
+
+Two: 50
+
+Select from the following:
+1) Print Number 1 & Number 2
+2) Change Number 1
+3) Change Number 2
+4) Add Number 2 to Number 1
+5) Subtract Number 2 from Number 1
+6) Quit
+Choice-->4
+
+The result is: -739
+
+Select from the following:
+1) Print Number 1 & Number 2
+2) Change Number 1
+3) Change Number 2
+4) Add Number 2 to Number 1
+5) Subtract Number 2 from Number 1
+6) Quit
+Choice-->5
+
+The result is: -839
+
+Select from the following:
+1) Print Number 1 & Number 2
+2) Change Number 1
+3) Change Number 2
+4) Add Number 2 to Number 1
+5) Subtract Number 2 from Number 1
+6) Quit
+Choice-->1
+
+One: -789
+
+
+Two: 50
+
+Select from the following:
+1) Print Number 1 & Number 2
+2) Change Number 1
+3) Change Number 2
+4) Add Number 2 to Number 1
+5) Subtract Number 2 from Number 1
+6) Quit
+Choice-->6
+

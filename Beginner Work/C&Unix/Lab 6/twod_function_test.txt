@@ -1,0 +1,50 @@
+0xbf802ac0
+twod is: 0xbf802ac0
+twod + 3 is: 0xbf802ae4
+*(*(twod + 1)) is: 8
+*twod + 1 is: 0xbf802ac4
+*twod[2] is: 14
+*(twod + 2) + 2 is: 0xbf802ae0
+twod[1] is: 0xbf802acc
+twod[1][2] is: 12
+ptr 0xbf802ac0
+twod [1] 0xbf802acc
+ptr[1] 4
+ptr[1] 4
+twod + 1 0xbf802acc
+ptr[10] 22
+
+2 4 6 
+8 10 12 
+14 16 18 
+20 22 24 
+
+2 4 6 
+8 10 12 
+14 16 18 
+20 22 24 
+
+
+2 4 6 
+8 10 12 
+14 16 18 
+20 22 24 
+
+
+/*
+Question 8: Yes I believe we can pass the array 
+known as twod, to a function such as function4(twod, 4, 3), 
+where the prototype is function4(int ** twod, int rows, int cols),
+because twod is a double pointer type variable, and therefore
+the function prototype should be correct for the type.
+*/
+
+
+/*
+Question 9: When you use bracket notation you must pass the number
+of columns using []. With the square brackets, calculations wil be done
+for you, and the columns bracket signifys where to start.
+With pointer notation no calculations are done for you. The pointer for
+the start of the array is passed, and you must do the calculations yourself
+treating the 2D array as one long array, using memory locations.
+*/

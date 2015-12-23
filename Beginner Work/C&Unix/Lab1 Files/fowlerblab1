@@ -1,0 +1,672 @@
+		Lab 1	Brandon Fowler
+
+1. Capture a detailed list of ALL files and directories, including dot files, in the /lib directory. By editing your text file, indicated which lines refer to: files, directories and links. – You don’t need to do this for all the files, just a few to illustrate you understand the difference. (2 of each)
+
+huntersike@ubuntu:/lib$ ls -l
+total 736
+(This is a Directory)drwxr-xr-x  2 root root   1024 Oct 17 02:28 apparmor
+(This is a directory)drwxr-xr-x  2 root root   3072 Oct 17 02:29 brltty
+(This is a Link)lrwxrwxrwx  1 root root     21 Oct 17 02:30 cpp -> /etc/alternatives/cpp
+drwxr-xr-x  3 root root   1024 Oct 17 02:28 crda
+drwxr-xr-x 53 root root   6144 Oct 17 02:29 firmware
+drwxr-xr-x  2 root root   1024 Oct 17 02:28 hdparm
+drwxr-xr-x  2 root root   1024 Oct 17 02:26 init
+(This is a File)-rwxr-xr-x  1 root root  72184 Sep 27  2012 klibc mYFhANOtcdgrJ6uSmDbFyxKe3NQ.so
+(This is a link)lrwxrwxrwx  1 root root     22 Aug 21  2012 libcryptsetup.so.4 -> libcryptsetup.so.4.2.0
+(This is a File)-rw-r--r--  1 root root 101224 Aug 21  2012 libcryptsetup.so.4.2.0
+lrwxrwxrwx  1 root root     17 Sep 18  2012 libip4tc.so.0 -> libip4tc.so.0.0.0
+-rw-r--r--  1 root root  27360 Sep 18  2012 libip4tc.so.0.0.0
+lrwxrwxrwx  1 root root     17 Sep 18  2012 libip6tc.so.0 -> libip6tc.so.0.0.0
+-rw-r--r--  1 root root  31488 Sep 18  2012 libip6tc.so.0.0.0
+lrwxrwxrwx  1 root root     16 Sep 18  2012 libiptc.so.0 -> libiptc.so.0.0.0
+-rw-r--r--  1 root root   5808 Sep 18  2012 libiptc.so.0.0.0
+lrwxrwxrwx  1 root root     18 Jun 13  2012 libnewt.so.0.52 -> libnewt.so.0.52.11
+-rw-r--r--  1 root root  93984 Jun 13  2012 libnewt.so.0.52.11
+-rw-r--r--  1 root root  10408 Oct  8 09:11 libnss_mdns4_minimal.so.2
+-rw-r--r--  1 root root  14520 Oct  8 09:11 libnss_mdns4.so.2
+-rw-r--r--  1 root root  10408 Oct  8 09:11 libnss_mdns6_minimal.so.2
+-rw-r--r--  1 root root  14520 Oct  8 09:11 libnss_mdns6.so.2
+-rw-r--r--  1 root root  14504 Oct  8 09:11 libnss_mdns_minimal.so.2
+-rw-r--r--  1 root root  14520 Oct  8 09:11 libnss_mdns.so.2
+lrwxrwxrwx  1 root root     27 Aug 16  2012 libply-boot-client.so.2 -> libply-boot-client.so.2.0.0
+-rw-r--r--  1 root root  22720 Aug 16  2012 libply-boot-client.so.2.0.0
+lrwxrwxrwx  1 root root     15 Aug 16  2012 libply.so.2 -> libply.so.2.0.0
+-rw-r--r--  1 root root  97376 Aug 16  2012 libply.so.2.0.0
+lrwxrwxrwx  1 root root     27 Aug 16  2012 libply-splash-core.so.2 -> libply-splash-core.so.2.0.0
+-rw-r--r--  1 root root  76736 Aug 16  2012 libply-splash-core.so.2.0.0
+lrwxrwxrwx  1 root root     31 Aug 16  2012 libply-splash-graphics.so.2 -> libply-splash-graphics.so.2.0.0
+-rw-r--r--  1 root root  39544 Aug 16  2012 libply-splash-graphics.so.2.0.0
+lrwxrwxrwx  1 root root     19 Sep 18  2012 libxtables.so.7 -> libxtables.so.7.0.0
+-rw-r--r--  1 root root  47872 Sep 18  2012 libxtables.so.7.0.0
+drwxr-xr-x  2 root root   1024 Oct 17 02:28 linux-sound-base
+drwxr-xr-x  2 root root   1024 Oct 17 02:26 lsb
+drwxr-xr-x  3 root root   1024 Oct 17 02:28 modules
+drwxr-xr-x  4 root root   1024 Oct 17 02:29 plymouth
+drwxr-xr-x  3 root root   1024 Oct 17 02:30 recovery-mode
+drwxr-xr-x  2 root root   1024 Oct 17 02:26 resolvconf
+drwxr-xr-x  2 root root   1024 Oct 17 02:29 security
+drwxr-xr-x  3 root root   1024 Oct 11 01:17 systemd
+drwxr-xr-x 15 root root   1024 Oct  4 05:26 terminfo
+drwxr-xr-x  5 root root   1024 Oct 17 02:29 udev
+drwxr-xr-x  2 root root   1024 Oct 17 02:30 ufw
+drwxr-xr-x  3 root root   6144 Oct 17 02:28 x86_64-linux-gnu
+drwxr-xr-x  2 root root   4096 Oct 17 02:28 xtables
+
+
+2. Capture the command and a detailed listing of the file properties of the .bashrc file in your homedirectory. Add a comment below this capture that explains all the file properties of .bashrc. 
+
+huntersike@ubuntu:~$ ls -al
+-rw-r--r--  1 huntersike huntersike 3637 Apr  3 16:57 .bashrc
+User can read and write. Group can read. Other can read. User huntersike. Contains 
+3637 files. Last modified on Apr  3 16:57.
+
+
+3. Create a subdirectory called cscd240 in your home directory. Capture the command that created the directory and the output of an ls command that shows that the new directory exists.
+
+huntersike@ubuntu:~$ mkdir cscd240
+huntersike@ubuntu:~$ ls
+cscd240  Documents  examples.desktop  Pictures  Templates
+Desktop  Downloads  Music             Public    Videos
+
+
+4. Create another subdirectory inside cscd240 that is named lab1. Capture the command that
+created the directory and the output of an ls command that shows that the new directory exists.
+NOTE: The creation of the directory lab1 must be made from /home/yourhomedirectory
+
+huntersike@ubuntu:~/cscd240$ mkdir lab1
+huntersike@ubuntu:~/cscd240$ ls
+lab1
+
+
+5. With the home directory still as your current working directory, capture the command that copies the .bashrc file from your home directory to a file called orig.bashrc in the lab1 directory.
+
+huntersike@ubuntu:~$ cp .bashrc orig.lab1
+
+
+6. Within the home directory, capture a detailed listing of all the files in the lab1 directory.
+
+drwxrwxr-x 2 huntersike huntersike 1024 Apr  4 18:48 .
+drwxrwxr-x 3 huntersike huntersike 1024 Apr  4 18:48 ..
+-rw-r--r-- 1 huntersike huntersike 3637 Apr  4 18:47 orig.bashrc
+
+
+7. Change to the lab1 directory capture the change directory command and capture a command that
+renames the .bashrc in lab1 to my.bashrc.
+
+huntersike@ubuntu:~$ cd cscd240/lab1
+huntersike@ubuntu:~/cscd240/lab1$ mv orig.bashrc my.bashrc
+
+
+8. Capture a detailed listing of all the files in the lab1 directory.
+
+drwxrwxr-x 2 huntersike huntersike 1024 Apr  4 19:10 .
+drwxrwxr-x 3 huntersike huntersike 1024 Apr  4 18:48 ..
+-rw-r--r-- 1 huntersike huntersike 3637 Apr  4 18:47 my.bashrc
+
+
+9. Starting in your lab1 directory, capture a command that uses a relative pathname to make
+cscd240 the current working directory.
+
+huntersike@ubuntu:~/cscd240/lab1$ cd ../
+
+
+10. Use the pwd command to indicate the current working directory.
+
+huntersike@ubuntu:~/cscd240$ pwd
+/home/huntersike/cscd240
+
+
+11. Starting in /usr/bin, (you will have to change to /usr/bin) (Prove you are in /usr/bin with pwd)capture the command using an absolute path that will make your home directory the currentworking directory. Prove the directory change with pwd.
+
+huntersike@ubuntu:/usr/bin$ pwd
+/usr/bin
+huntersike@ubuntu:/usr/bin$ cd ~
+huntersike@ubuntu:~$ pwd
+/home/huntersike
+
+
+12. Capture the command and output using rmdir (with no other commands) to delete the lab1
+subdirectory. Does it delete the directory? Why or why not. What combination of commands
+will delete the directory? You don’t need to issue the commands.
+
+huntersike@ubuntu:~$ rmdir cscd240/lab1
+rmdir: failed to remove `cscd240/lab1': Directory not empty
+No it did not delete the directory because it is not empty. I would need to use a rm -rf cscd240/lab1 command.
+
+
+13. Using the man page describe what is output by the env command with no arguments.
+
+Outputs information about the environment.
+
+
+14. Show a shell command that will add the current directory to the PATH (without removing any
+existing variables from the current value of PATH.)
+
+huntersike@ubuntu:~$ PATH=PATH:/~
+
+
+15. Describe what you would have to do to make a change to the Shell permanent.
+
+Edit the .bashrc file directly
+
+
+16. Explain how to make a Shell change permanent for all sessions including your current session. (i.e. how do I reload my current session without closing and reopening)
+
+Make the change in .bashrc then enter the command: . .profile
+
+
+17. Capture the output from the echo “Current time and date is `date`” command.
+
+huntersike@ubuntu:~$ echo "Current time and date is `date`"
+Current time and date is Thu Apr  4 20:30:39 PDT 2013
+
+
+18. Issue the date command and capture its output. Now, capture the output from the echo 'Current time and date is `date`' command. Note that the ` character is an accent NOT an apostrophe '. Explain why the output is different in particular to the single and double quotes. Also explain what the ` character does.
+
+huntersike@ubuntu:~$ date
+Thu Apr  4 20:33:04 PDT 2013
+huntersike@ubuntu:~$ echo "Current time and date is `date`"
+Current time and date is Thu Apr  4 20:30:39 PDT 2013
+The accents identify the word date as a command inside of the quotes. So that command is executed first on the inside, then the entire line is outputed as a string.
+
+
+19. Create a symbolic link called almost that links to the lab1 directory. Capture the output
+
+huntersike@ubuntu:~$ ln -s cscd240/lab1 almost
+huntersike@ubuntu:~$ ls -al
+lrwxrwxrwx  1 huntersike huntersike   12 Apr  4 20:46 almost -> cscd240/lab1
+
+
+20. Change to almost and capture the output.
+
+huntersike@ubuntu:~$ cd almost
+huntersike@ubuntu:~/almost$ pwd
+/home/huntersike/almost
+
+
+21. Use "help" to get information on how to use the alias command.
+a. What information is provided in from “help”?
+b. When do should you use “help” compared to when you should use “man
+
+The information provided is a description of the uses for the alias command.
+Use help when you want to know what a command does, and man when you want to know how to use a command.
+
+22. Create an alias named LA that is ls –al. Capture the output and show it worked.
+
+huntersike@ubuntu:~$ alias LA=`ls -al`
+huntersike@ubuntu:~$ LA
+The program 'total' is currently not installed. You can install it by typing:
+sudo apt-get install radiance
+drwxr-xr-x: command not found
+drwxr-xr-x: command not found
+bash: cscd240/lab1: Is a directory
+-rw-------: command not found
+-rw-r--r--: command not found
+-rw-r--r--: command not found
+drwx------: command not found
+drwx------: command not found
+drwx------: command not found
+drwxrwxr-x: command not found
+drwx------: command not found
+drwxr-xr-x: command not found
+-rw-r--r--: command not found
+drwxr-xr-x: command not found
+drwxr-xr-x: command not found
+-rw-r--r--: command not found
+drwx------: command not found
+drwxr-xr-x: command not found
+-rw-------: command not found
+drwxrwxr-x: command not found
+-rw-rw-r--: command not found
+-rw-------: command not found
+-rw-r--r--: command not found
+drwxr-xr-x: command not found
+drwx------: command not found
+drwx------: command not found
+drwxr-xr-x: command not found
+-rw-r--r--: command not found
+drwxr-xr-x: command not found
+-rw-r--r--: command not found
+drwxr-xr-x: command not found
+drwx------: command not found
+-rw-------: command not found
+drwxr-xr-x: command not found
+drwxr-xr-x: command not found
+-rw-------: command not found
+-rw-------: command not found
+-rw-------: command not found
+
+
+23. Capture the command to redirect your output from #17 to a file named date.txt.
+
+huntersike@ubuntu:~$ echo "Current time and date is `date`" > date.txt
+
+
+24. Issue the more or less command on date.txt and capture the output.
+huntersike@ubuntu:~$ less date.txt
+Current time and date is Thu Apr  4 21:22:41 PDT 2013
+
+
+25. Capture the long listing of date.txt.
+
+-rw-rw-r--  1 huntersike huntersike   54 Apr  4 21:22 date.txt
+
+
+26. Modify date.txt to add executable privileges to date.txt for the owner, Capture the command and proof that the permissions were changed. No other permissions will be changed. You must do this with the octal values.
+
+huntersike@ubuntu:~$ chmod 764 date.txt
+-rwxrw-r--  1 huntersike huntersike   54 Apr  4 21:22 date.txt
+
+
+27. Modify date.txt to remove w from the group. Capture the command and proof that the
+permissions were changed. No other permissions will be changed. You must do this without
+using the octal values.
+
+huntersike@ubuntu:~$ chmod g-w date.txt
+-rwxr--r--  1 huntersike huntersike   54 Apr  4 21:22 date.txt
+
+
+28. Capture the command to create a tar file named date.tgz that contains date.txt. Capture the ls command to show the tar file was created.
+
+huntersike@ubuntu:~$ tar cvfz date.tgz date.txt
+huntersike@ubuntu:~$ ls
+almost    date.txt   Downloads         Music      Public
+cscd240   Desktop    examples.desktop  orig.lab1  Templates
+date.tgz  Documents  lab1              Pictures   Videos
+
+
+29. Capture the command to create a zip file named date.zip that contains date.txt. Capture the ls command to show the zip file was created.
+
+huntersike@ubuntu:~$ zip date.zip date.txt
+huntersike@ubuntu:~$ ls
+almost    date.txt  Documents         lab1       Pictures   Videos
+cscd240   date.zip  Downloads         Music      Public
+date.tgz  Desktop   examples.desktop  orig.lab1  Templates
+
+
+30. Change directory so you are working from within the lab1 directory. Once in the directory:
+a. Capture the command that will create 6 files using the touch command. The files will be
+named test, test1, test21, test3, something, nothing.
+b. Capture the use of PICO to add text to the file test1.
+c. Capture the long listing of test1 to show the size changed.
+d. Capture the ls command using metacharacters that will print all files named test followed
+by a single digit.
+
+huntersike@ubuntu:~/cscd240/lab1$ touch test test1 test21 test3 something nothing
+
+huntersike@ubuntu:~/cscd240/lab1$ pico test1
+
+-rw-rw-r-- 1 huntersike huntersike   13 Apr  4 22:11 test1
+
+huntersike@ubuntu:~/cscd240/lab1$ ls test?
+test1  test3
+
+
+31. With your home directory as your current working directory complete the following:
+a. Create a symbolic link called myTest which refers to test1 in the lab1 directory
+b. Capture a long listing of all the files in your home directory.
+
+huntersike@ubuntu:~$ ln -s cscd240/lab1 myTest
+
+drwxr-xr-x 22 huntersike huntersike 1024 Apr  4 22:20 .
+drwxr-xr-x  3 root       root       1024 Apr  3 16:57 ..
+lrwxrwxrwx  1 huntersike huntersike   12 Apr  4 20:46 almost -> cscd240/lab1
+-rw-------  1 huntersike huntersike 2641 Apr  4 21:18 .bash_history
+-rw-r--r--  1 huntersike huntersike  220 Apr  3 16:57 .bash_logout
+-rw-r--r--  1 huntersike huntersike 3637 Apr  3 16:57 .bashrc
+drwx------ 15 huntersike huntersike 1024 Apr  4 19:43 .cache
+drwx------  3 huntersike huntersike 1024 Apr  4 00:16 .compiz
+drwx------ 15 huntersike huntersike 1024 Apr  4 19:43 .config
+drwxrwxr-x  3 huntersike huntersike 1024 Apr  4 18:48 cscd240
+-rw-rw-r--  1 huntersike huntersike  175 Apr  4 21:56 date.tgz
+-rwxr--r--  1 huntersike huntersike   54 Apr  4 21:22 date.txt
+-rw-rw-r--  1 huntersike huntersike  220 Apr  4 22:04 date.zip
+drwx------  3 huntersike huntersike 1024 Apr  4 00:00 .dbus
+drwxr-xr-x  2 huntersike huntersike 1024 Apr  4 22:17 Desktop
+-rw-r--r--  1 huntersike huntersike   25 Apr  4 17:24 .dmrc
+drwxr-xr-x  2 huntersike huntersike 1024 Apr  4 00:00 Documents
+drwxr-xr-x  2 huntersike huntersike 1024 Apr  4 17:26 Downloads
+-rw-r--r--  1 huntersike huntersike 8445 Apr  3 16:57 examples.desktop
+drwx------  3 huntersike huntersike 1024 Apr  4 17:24 .gconf
+drwxr-xr-x  3 huntersike huntersike 1024 Apr  4 00:01 .gnome2
+-rw-------  1 huntersike huntersike    0 Apr  4 00:16 .goutputstream-PMSUUW
+drwxrwxr-x  2 huntersike huntersike 1024 Apr  4 19:41 .gstreamer-0.10
+-rw-rw-r--  1 huntersike huntersike  162 Apr  4 17:24 .gtk-bookmarks
+-rw-------  1 huntersike huntersike  954 Apr  4 17:24 .ICEauthority
+-rw-r--r--  1 huntersike huntersike 3637 Apr  4 18:46 lab1
+drwxr-xr-x  3 huntersike huntersike 1024 Apr  4 00:00 .local
+drwx------  3 huntersike huntersike 1024 Apr  4 00:01 .mission-control
+drwx------  4 huntersike huntersike 1024 Apr  4 00:03 .mozilla
+drwxr-xr-x  2 huntersike huntersike 1024 Apr  4 00:00 Music
+lrwxrwxrwx  1 huntersike huntersike   12 Apr  4 22:20 myTest -> cscd240/lab1
+-rw-r--r--  1 huntersike huntersike 3637 Apr  4 19:00 orig.lab1
+drwxr-xr-x  2 huntersike huntersike 1024 Apr  4 00:00 Pictures
+-rw-r--r--  1 huntersike huntersike  675 Apr  3 16:57 .profile
+drwxr-xr-x  2 huntersike huntersike 1024 Apr  4 00:00 Public
+drwx------  2 huntersike huntersike 1024 Apr  4 17:24 .pulse
+-rw-------  1 huntersike huntersike  256 Apr  4 00:00 .pulse-cookie
+drwxr-xr-x  2 huntersike huntersike 1024 Apr  4 00:00 Templates
+drwxr-xr-x  2 huntersike huntersike 1024 Apr  4 00:00 Videos
+-rw-------  1 huntersike huntersike   51 Apr  4 17:24 .Xauthority
+-rw-------  1 huntersike huntersike 8219 Apr  4 21:23 .xsession-errors
+-rw-------  1 huntersike huntersike 3312 Apr  4 17:16 .xsession-errors.old
+
+
+32. Explain when and why one would ever use the sudo command? Is the sudo command ever issued
+behind the scenes by the operating system? Justify your answer.
+
+One would use the sudo command to gain access temporarily to the administrative privledges of the super user. The operating system shouldn't need to use sudo behind the scenes since it can just have root access.
+
+
+33. Capture the command echo $SHELL.
+a. What shell are you using?
+b. Capture the command required to install ksh
+c. Capture the command to switch to ksh
+d. Capture the command echo $SHELL.
+e. What shell are you using? Why is the shell different than you expected?
+f. Capture the command to leave ksh
+
+huntersike@ubuntu:~$ echo $SHELL
+/bin/bash
+
+I am using the bash shell.
+
+huntersike@ubuntu:~$ sudo apt-get install ksh
+
+huntersike@ubuntu:~$ ksh
+
+$ echo $SHELL
+
+I am now using the Korn shell. The command line looks different, and the up arrow doesn't re-input my last command anymore.
+
+$ bash
+
+
+34. Capture the command echo $PS1.
+a. Capture the command PS1=”prompt : ”
+b. Explained what happened
+c. Capture the command to add the date to “prompt : “
+d. Explain how to change the prompt permanently.
+
+huntersike@ubuntu:~$ echo $PS1
+\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\u@\h:\w\$
+
+The command line was changed to say prompt:
+
+prompt : PS1="propmt : `date`"
+
+You could change the prompt permanently by editing the .bashrc file, and changing the line that specifys this.
+
+
+35. Capture the df command
+a. What is the purpose of the df command
+b. Capture the df command that allows the output in human readable format
+
+The df command displays the usage of space of file systems.
+
+The df-h command would output in human readable format.
+
+
+36. Capture the output of the command “history”
+a. How many lines were displayed?
+b. How do you execute the last command without retyping it?
+c. How do you change the number commands saved in the history file? (Hint: bashrc)
+
+    1  /lib
+    2  ls-al /lib
+    3  ls-al
+    4  ls /lib
+    5  clear
+    6  ls al /lib
+    7  pwd
+    8  pwd /lib
+    9  /lib
+   10  ls /lib
+   11  cd lib
+   12  cd /lib
+   13  dir
+   14  ls
+   15  dir
+   16  cleaR
+   17  clear
+   18  pwd
+   19  ls -l
+   20  clear
+   21  /.
+   22  .
+   23  cd /.
+   24  .bashrc
+   25  ls
+   26  which bashrc
+   27  which .bashrc
+   28  which .bashrc.
+   29  cd /bin
+   30  ls
+   31  ls -l
+   32  .bashrc
+   33  bashrc
+   34  .bashrc.
+   35  bashrc.
+   36  clear
+   37  cd /.
+   38  clear
+   39  $HOME/ .bashrc
+   40  /ls
+   41  /home
+   42  cd /home
+   43  ls
+   44  find / -name "bashrc"
+   45  cd /etc
+   46  ls
+   47  clear
+   48  /home
+   49  cd /home
+   50  cd /etc
+   51  ls -bash
+   52  /etc
+   53  cd /etc
+   54  ls -l
+   55  mkdir cscd240
+   56  ls
+   57  cd cscd240
+   58  mkdir lab1
+   59  ls
+   60  cp bash.bashrc orig.bashrc
+   61  ls -l
+   62  cp bash.bashrc /lab1/orig.bashrc
+   63  cp /etc/bash.bashrc /lab1/orig.bashrc
+   64  cp /etc/bash.bashr/lab1/orig.bashrc
+   65  clear
+   66  ls -*.bashrc
+   67  ls *.bashrc
+   68  ls -.bashrc
+   69  ls -al
+   70  clear
+   71  cp-rf .bashrc.home orig.bashrc.lab1
+   72  cf .bashrc.home orig.bashrc/lab1
+   73  pf .bashrc.home orig.bashrc/lab1
+   74  pf .bashrc.home orig.b
+   75  cp .bashrc.home orig.bashrc/lab1
+   76  cp .bashrc orig.bashrc
+   77  ls
+   78  move orig /lab1
+   79  move ori.bashrc /lab1
+   80  move orig.bashrc /lab1
+   81  mv orig.bashrc /lab1
+   82  mv orig.bashrc /cscd240
+   83  sudo mv orig.bashrc /lab1
+   84  cd lab1
+   85  cd /lab1
+   86  cd /cscd240/lab1
+   87  cd cscd240
+   88  cd lab1
+   89  ls
+   90  ls -al
+   91  ls
+   92  ls -al
+   93  cp .bashrc orig.bashrc
+   94  sudo mv orig.bashrc lab1
+   95  cd lab1
+   96  cd cscd240/lab1
+   97  ls
+   98  cp .bashrc orig.bashrc
+   99  sudo mv orig.bashrc cscd240
+  100  sudo mv orig.bashrc lab1
+  101  cd cscd240
+  102  sudo mv orig.bashrc lab1
+  103  cd lab1
+  104  ls
+  105  ls -al
+  106  /clear
+  107  clear
+  108  ~
+  109  cd ~
+  110  clear
+  111  cp .bashrc orig.lab1
+  112  cd cscd240
+  113  cd cscdlab1
+  114  cd lab1
+  115  ls
+  116  /~
+  117  cd /~
+  118  cd ~
+  119  clear
+  120  cd cscd240/lab1
+  121  mv orig.bashrc my.bashrc
+  122  ls -al
+  123  /.
+  124  ./
+  125  cd /.
+  126  cd cscd240
+  127  cd/~
+  128  cd /~
+  129  cd ~
+  130  cd cscd240
+  131  cd lab1
+  132  cd /.
+  133  cd ~
+  134  cd cscd240/lab1
+  135  cd .
+  136  cd ./
+  137  cd ./lab1
+  138  cd ./cscd240/lab1
+  139  cd ./lab1
+  140  cd /./lab1
+  141  cd ./lab1
+  142  cd .lab1
+  143  cd ./
+  144  ../
+  145  cd ../
+  146  pwd
+  147  root
+  148  cd root
+  149  cd path
+  150  cd /huntersike/bin
+  151  cd huntersike/bin
+  152  cd /home/bin
+  153  cd /~/bin
+  154  cd ~/bin
+  155  cd /bin
+  156  pwd
+  157  ..
+  158  cd ..
+  159  ~/
+  160  cd ~
+  161  cd cscd240
+  162  cd /boot/huntersike/bin
+  163  cd boot/huntersike/bin
+  164  cd ~/bin
+  165  cd ~
+  166  cd bin
+  167  etc/bin
+  168  bin
+  169  which bin
+  170  which /bin
+  171  cd usr/bin
+  172  cd /usr/bin
+  173  pwd
+  174  cd ~
+  175  pwd
+  176  rmdir lab1
+  177  rmdir cscd240/lab1
+  178  man env
+  179  env
+  180  man env
+  181  info coreutils 'env invocation'
+  182  clear
+  183  PATH=PATH:.
+  184  PATH
+  185  $PATH
+  186  CD~
+  187  cd ~
+  188  PATH=PATH:~
+  189  PATH=PATH/~
+  190  echo $PATH
+  191  PATH=PATH:/~
+  192  echo $PATH
+  193  . .profile
+  194  echo "Current time and date is `date`"
+  195  date
+  196  clear
+  197  ls -s cscd240/lab1 almost
+  198  clear
+  199  ln -s cscd240/lab1 almost
+  200  ls
+  201  ls -al
+  202  clear
+  203  cd almost
+  204  pdw
+  205  pwd
+  206  clear
+  207  cd ~
+  208  clear
+  209  help alias
+  210  clear
+  211  LA=las -al
+  212  clear
+  213  LA=`ls -al`
+  214  LA
+  215  ls -al
+  216  clear
+  217  LA=`ls -al`
+  218  LA
+  219  clear
+  220  ln -s LA etc/ls -al
+  221  which ls -al
+  222  ln -s LA bin/ls/ls -al
+  223  ln -s LA bin/ls/al
+  224  ln -s LA bin/ls/ls -al
+  225  ln -s bin/ls/ls -al LA
+  226  ln -s bin/ls/`ls -al` LA
+  227  cd bin/ls
+  228  cd bin
+  229  cd /bin
+  230  cd /ls
+  231  cd ls
+  232  ln -s /bin/ls LA
+  233  cd ~
+  234  ln -s /bin/ls LA
+  235  LA
+  236  ls
+  237  ln -s /bin/ls/`ls -al` LA
+  238  ln -s /bin/ls/ls LA
+  239  rm LA
+  240  ln -s /bin/ls/ls LA
+  241  LA
+  242  rm LA
+  243  alias 
+  244  alias /bin/ls/ls LA
+  245  alias /bin/ls LA
+  246  alias bin/ls LA
+  247  alias LA=`ls -al`
+  248  LA
+  249  clear
+  250  echo $PS1
+  251  PS1="prompt : "
+  252  PS1="propmt : `date`"
+  253  df
+  254  history
+
+254 lines were displayed.
+Exicute the last command by typing !254
+To modify the amount of commands saved in history type after the other commands in the .bashrc file: set history = #

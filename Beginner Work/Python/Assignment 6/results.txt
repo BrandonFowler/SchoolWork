@@ -1,0 +1,20 @@
+Total Number of Hands Drawn: 1000000
+----------------------------------------
+
+Straight Flush: 18 Straight Flushes Dealt,  0.0018%
+
+Four Of A Kind: 251 Four of a Kinds Dealt,  0.025099999999999997%
+
+Full House: 1502 Full Houses Dealt,  0.1502%
+
+Flush: 2008 Flushes Dealt,  0.20079999999999998%
+
+Straight: 3460 Straights Dealt  0.346%
+
+Three Of A Kind: 21411 Three of a Kinds Dealt,  2.1411%
+
+Two Pair: 47337 Two Pairs Dealt,  4.7337%
+
+One Pair: 421706 One Pairs Dealt,  42.1706%
+
+High Card: 502307 High Cards Dealt,  50.23069999999999%

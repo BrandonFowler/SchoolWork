@@ -1,0 +1,26 @@
+huntersike@ubuntu:~/Desktop$ valgrind ./hw5
+==4109== Memcheck, a memory error detector
+==4109== Copyright (C) 2002-2011, and GNU GPL'd, by Julian Seward et al.
+==4109== Using Valgrind-3.7.0 and LibVEX; rerun with -h for copyright info
+==4109== Command: ./hw5
+==4109== 
+Please enter file name:stocks.txt
+
+
+You are at the options menu!
+1) Print stock value
+2) Buy stock
+3) Sell stock
+4) Print stock info
+5) Quit
+Type the number of your choice:5
+==4109== 
+==4109== HEAP SUMMARY:
+==4109==     in use at exit: 0 bytes in 0 blocks
+==4109==   total heap usage: 28 allocs, 28 frees, 968 bytes allocated
+==4109== 
+==4109== All heap blocks were freed -- no leaks are possible
+==4109== 
+==4109== For counts of detected and suppressed errors, rerun with: -v
+==4109== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+

@@ -1,0 +1,33 @@
+stuff(functions) to make life easier
+
+#include <ctype.h>
+
+//char tolower(char)
+//char toupper(char)
+
+
+char again;
+scanf("%c",&again);
+again = tolower(again);
+
+while(again!='y')
+
+int atoi(char[]) = "123" //gives back int
+
+float atof(char[]) = "123.4" //gives back float
+
+
+int array[MAX];
+
+aabb0	aabb4	aabb8 //locations of index 0,1,2
+
+
+for(x=0;x<MAX;x++)
+{
+	scanf("%i",&array[x]);
+}
+char name[MAX]
+scanf("%s",name);//smart enought to split a string into an array(But stops on white space so can have space in string)
+
+
+fgets(name, MAX, sdin)//takes in string including white space, needs limmit(MAX) and specify stdin

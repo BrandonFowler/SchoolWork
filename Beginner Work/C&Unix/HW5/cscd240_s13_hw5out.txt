@@ -1,0 +1,118 @@
+Please enter file name:stocks.txt
+
+
+You are at the options menu!
+1) Print stock value
+2) Buy stock
+3) Sell stock
+4) Print stock info
+5) Quit
+Type the number of your choice:1
+Please enter file name:in.txt
+
+
+Apple current price: 505.30
+	Current Value:	$2526.50
+	Puchase Value:	$102.70
+	Profit/Loss:	$2423.80
+
+
+Brandon Inc current price: 999.99
+	Current Value:	$998990.01
+	Puchase Value:	$776642.58
+	Profit/Loss:	$222347.43
+
+
+McDonalds current price: 30.05
+	Current Value:	$3756.25
+	Puchase Value:	$4818.75
+	Profit/Loss:	$(1062.50)
+
+
+
+
+You are at the options menu!
+1) Print stock value
+2) Buy stock
+3) Sell stock
+4) Print stock info
+5) Quit
+Type the number of your choice:2
+
+
+Enter the company symbol:APP
+Enter the company name:Apple
+Enter Price:50
+Enter amount you wish to purchase:5
+
+
+You are at the options menu!
+1) Print stock value
+2) Buy stock
+3) Sell stock
+4) Print stock info
+5) Quit
+Type the number of your choice:3
+
+
+Type the symbol of the stock you wish to sell:BR 
+Type the amount you wish to sell:150
+
+
+Stocks Sold!
+
+You are at the options menu!
+1) Print stock value
+2) Buy stock
+3) Sell stock
+4) Print stock info
+5) Quit
+Type the number of your choice:4
+
+
+Apple APP
+
+Shares: 10
+
+Price: 35.27
+
+Brandon Inc BR
+
+Shares: 849
+
+Price: 777.42
+
+Google Inc GOOG
+
+Shares: 169
+
+Price: 854.68
+
+McDonalds MCD
+
+Shares: 125
+
+Price: 38.55
+
+Microsoft MSFT
+
+Shares: 806
+
+Price: 123.45
+
+Zipperz ZZ
+
+Shares: 3
+
+Price: 25.40
+
+
+
+You are at the options menu!
+1) Print stock value
+2) Buy stock
+3) Sell stock
+4) Print stock info
+5) Quit
+Type the number of your choice:5
+

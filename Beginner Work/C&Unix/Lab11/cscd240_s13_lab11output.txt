@@ -1,0 +1,15 @@
+Sorting by last name:
+tom capaul ID: 54321
+paul schimpf ID: 88776
+stu steiner ID: 12345
+
+Sorting by first name:
+paul schimpf ID: 88776
+stu steiner ID: 12345
+tom capaul ID: 54321
+
+Sorting by ID number:
+stu steiner ID: 12345
+tom capaul ID: 54321
+paul schimpf ID: 88776
+

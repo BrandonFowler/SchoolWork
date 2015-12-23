@@ -1,0 +1,144 @@
+int arr[] = { 2, 4, 6, 8, 10, 12, 14, 16, 18, 20};
+int *aptr = arr;
+
+This should initialize the array with the above specified values
+Going off of problem one:
+arr will have the base address of 0xbfb85058
+aptr will have a base address of 0xbfb85054 and point at the base address of arr
+
+
+
+/* This gives us an idea of the memory map */
+printf("arr %p\n", arr);
+printf("aptr %p\n", aptr);
+
+This should print out the base addresses of arr twice
+because aptr is pointing at arr:
+arr 0xbfb85058
+aptr 0xbfb85058
+
+
+
+printf("arr[1] %p\n", &arr[1]);
+printf("arr[2] %p\n", &arr[2]);
+printf("&aptr %p\n", &aptr);
+/* end memory map */
+
+This should print out the addresses of arr[1] and arr[2]
+and the base address of aptr:
+arr[1] 0xbfb8505c
+arr[2] 0xbfb85060
+&aptr 0xbfb85054
+
+
+
+++aptr;
+printf("*aptr %i\n", *aptr);
+printf("aptr %p\n", aptr);
+
+The first line will add one int/4 bytes to the address of aptr
+making it 0xbfb85058 which is the address of arr. Next aptr will be
+de-referenced printing the integer value stored at that location. Next the
+address of aptr will be displayed:
+*aptr 2
+aptr 0xbfb85058
+
+
+
+// Command being executed is *++aptr
+printf("*++aptr %i\n", *++aptr);
+printf("aptr %p\n", aptr);
+
+This will take the memory location of aptr add 4 bytes to it
+then that memory location will be de-referenced to print the
+integer value stored at it. The memory location of aptr is not
+changed by this action only used to calculate the next address.
+The address of aptr is also printed:
+*++aptr 4
+aptr 0xbfb85058 
+
+
+
+// Command being executed is *aptr++
+printf("*aptr++ %i\n", *aptr++);
+printf("aptr %p\n", aptr);
+
+Here aptr will be de-referenced first then the integer value 
+stored at the address will have one added to it(new value will not be stored), then it will
+be printed, the unchanged address of aptr will also be printed:
+*aptr++ 3
+aptr 0xbfb85058
+
+
+
+*aptr += 1;
+printf("*aptr %i\n", *aptr);
+printf("aptr %p\n", aptr);
+
+aptr will be de-referenced and the integer stored at the address
+will have 1 added to it(new integer will be stored), it will then be printed. The address of 
+aptr will also be printed:
+*aptr 3
+aptr 0xbfb85058
+
+
+
+// Command being executed is *(aptr+1)
+printf("*(aptr+1) %i\n", *(aptr+1));
+The address of aptr will have 4 bytes added to it(new address not stored)
+then the new address will be de-referenced and the integer value at the
+address will be printed:
+*(aptr+1) 4
+
+
+
+*(arr+2) = *aptr+100;
+printf("*(arr+2) %i\n", *(arr+2));
+
+arr+2 will be the address 0xbfb85058, *aptr+100 will de-reference
+the address of aptr and add 100 to the intger value stored there, the new integer value
+will be stored at the address 0xbfb85058. Next the integer value will be printed:
+*(arr+2) 102
+
+
+
+aptr = arr + 5;
+printf("*aptr %i\n", *aptr);
+printf("aptr %p\n", aptr);
+The pointer aptr will point at a new address that is
+calculated by the address of arr + 20 bytes. The integer
+values stored at the new address will be printed then the new
+address will be printed:
+*aptr 12
+aptr 0xbfb8506c
+
+
+*(arr+2) =*aptr +5;
+printf("*arr[2] %i\n", arr[2]);
+
+arr+2 will be the address 0xbfb85058, *aptr+5 will de-reference
+the address of aptr and add 5 to the intger value stored there, the new integer value
+will be stored at the address 0xbfb85058. Then a different integer stored at the address
+oxbfb85060 will be printed:
+*arr[2] 6
+
+
+
+aptr = (arr + 10);
+printf("aptr %p\n", aptr);
+printf("*aptr %i\n", *aptr);
+
+atpr will point at the address of arr with 40 bytes added to it, this
+address is 0xbfb8507c. This address will then be printed, and also the integer 
+value stored at this address:
+aptr 0xbfb8507c
+*aptr 20
+
+
+
+*aptr + 4 = *arr+2;
+
+This line should cause an error. The address pf aptr will
+be dereferenced giveing the int stored at that location. 4 will be
+added to the int giving us a value of 24. Then it will attempt to store
+another int at 24, which should cause problems.
