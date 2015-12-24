@@ -1,0 +1,132 @@
+brandonfowler@The-Console-Ubuntu:~/Desktop$ ./mysh
+Loading History
+No History To Load Yet
+Loading .myshrc
+.myshrc Done Loading
+?: alias l="ls -l"
+?: alias p=pwd
+?: p
+/home/brandonfowler/Desktop
+?: unalias p
+?: p
+Invalid Command
+?: l
+total 360
+-rw-rw-r-- 1 brandonfowler brandonfowler 185561 Oct 10 14:24 cscd340_f14_hw2.pdf
+-rw-rw-r-- 1 brandonfowler brandonfowler    969 Oct 16 15:22 cscd340hw2.c
+-rw-rw-r-- 1 brandonfowler brandonfowler    969 Oct 16 14:51 cscd340hw2.c~
+-rw-rw-r-- 1 brandonfowler brandonfowler  24017 Oct 16 18:40 cscd340hw2functions.c
+-rw-rw-r-- 1 brandonfowler brandonfowler  24017 Oct 16 18:37 cscd340hw2functions.c~
+-rw-rw-r-- 1 brandonfowler brandonfowler   1779 Oct 16 17:54 cscd340hw2.h
+-rw-rw-r-- 1 brandonfowler brandonfowler   1779 Oct 16 17:54 cscd340hw2.h~
+-rw-rw-r-- 1 brandonfowler brandonfowler      0 Oct 16 15:21 cscd340hw2output.txt
+-rw-rw-r-- 1 brandonfowler brandonfowler    925 Oct  5 13:45 cscd340lab3prob1.c~
+-rw-rw-r-- 1 brandonfowler brandonfowler   2069 Oct  7 19:38 cscd340lab3prob2.c~
+-rw-rw-r-- 1 brandonfowler brandonfowler   2396 Oct  7 19:30 cscd340lab3prob3.c~
+-rw-rw-r-- 1 brandonfowler brandonfowler   3747 Oct  9 18:13 cscd340lab4prob1.c~
+-rw-rw-r-- 1 brandonfowler brandonfowler   3075 Oct  9 21:04 cscd340lab4prob3.c~
+-rw-rw-r-- 1 brandonfowler brandonfowler   3609 Oct  9 21:14 cscd340lab4prob4.c~
+-rw-rw-r-- 1 brandonfowler brandonfowler      0 Oct  5 16:37 example~
+-rw-rw-r-- 1 brandonfowler brandonfowler    898 Oct 16 15:22 linkedList.c
+-rw-rw-r-- 1 brandonfowler brandonfowler    898 Oct 16 13:52 linkedList.c~
+-rw-rw-r-- 1 brandonfowler brandonfowler    545 Oct 16 15:22 linkedList.h
+-rw-rw-r-- 1 brandonfowler brandonfowler    545 Oct 16 13:53 linkedList.h~
+-rw-r--r-- 1 brandonfowler brandonfowler    134 Oct 16 15:11 makefile
+-rw-r--r-- 1 brandonfowler brandonfowler    112 Oct 16 15:07 makefile~
+-rwxrwxr-x 1 brandonfowler brandonfowler  46184 Oct 16 18:40 mysh
+-rw-rw---- 1 brandonfowler brandonfowler     12 Oct 16 18:32 out2.txt
+-rw-rw---- 1 brandonfowler brandonfowler   2071 Oct 16 18:32 out.txt
+-rw-rw-r-- 1 brandonfowler brandonfowler      0 Oct 16 18:42 prefs.myshrc
+-rw-rw-r-- 1 brandonfowler brandonfowler     81 Oct 16 16:13 prefs.myshrc~
+-rw-rw-r-- 1 brandonfowler brandonfowler    117 Oct 16 14:24 wazza.myshrc~
+?: l | wc -w
+245
+?: l | wc -w > out.txt
+?: l > out.txt
+?: ls 
+cscd340_f14_hw2.pdf	cscd340hw2output.txt  example~	     mysh
+cscd340hw2.c		cscd340lab3prob1.c~   linkedList.c   prefs.myshrc
+cscd340hw2.c~		cscd340lab3prob2.c~   linkedList.c~  prefs.myshrc~
+cscd340hw2functions.c	cscd340lab3prob3.c~   linkedList.h   wazza.myshrc~
+cscd340hw2functions.c~	cscd340lab4prob1.c~   linkedList.h~
+cscd340hw2.h		cscd340lab4prob3.c~   makefile
+cscd340hw2.h~		cscd340lab4prob4.c~   makefile~
+?: ls -l > out.txt
+?: wc -w < out.txt > out2.txt
+?: history
+1 alias l="ls -l"
+2 alias p=pwd
+3 p
+4 unalias p
+5 p
+6 l
+7 l | wc -w
+8 l | wc -w > out.txt
+9 l > out.txt
+10 ls
+11 ls -l > out.txt
+12 wc -w < out.txt > out2.txt
+13 history
+?: !6
+total 360
+-rw-rw-r-- 1 brandonfowler brandonfowler 185561 Oct 10 14:24 cscd340_f14_hw2.pdf
+-rw-rw-r-- 1 brandonfowler brandonfowler    969 Oct 16 15:22 cscd340hw2.c
+-rw-rw-r-- 1 brandonfowler brandonfowler    969 Oct 16 14:51 cscd340hw2.c~
+-rw-rw-r-- 1 brandonfowler brandonfowler  24017 Oct 16 18:40 cscd340hw2functions.c
+-rw-rw-r-- 1 brandonfowler brandonfowler  24017 Oct 16 18:37 cscd340hw2functions.c~
+-rw-rw-r-- 1 brandonfowler brandonfowler   1779 Oct 16 17:54 cscd340hw2.h
+-rw-rw-r-- 1 brandonfowler brandonfowler   1779 Oct 16 17:54 cscd340hw2.h~
+-rw-rw-r-- 1 brandonfowler brandonfowler      0 Oct 16 15:21 cscd340hw2output.txt
+-rw-rw-r-- 1 brandonfowler brandonfowler    925 Oct  5 13:45 cscd340lab3prob1.c~
+-rw-rw-r-- 1 brandonfowler brandonfowler   2069 Oct  7 19:38 cscd340lab3prob2.c~
+-rw-rw-r-- 1 brandonfowler brandonfowler   2396 Oct  7 19:30 cscd340lab3prob3.c~
+-rw-rw-r-- 1 brandonfowler brandonfowler   3747 Oct  9 18:13 cscd340lab4prob1.c~
+-rw-rw-r-- 1 brandonfowler brandonfowler   3075 Oct  9 21:04 cscd340lab4prob3.c~
+-rw-rw-r-- 1 brandonfowler brandonfowler   3609 Oct  9 21:14 cscd340lab4prob4.c~
+-rw-rw-r-- 1 brandonfowler brandonfowler      0 Oct  5 16:37 example~
+-rw-rw-r-- 1 brandonfowler brandonfowler    898 Oct 16 15:22 linkedList.c
+-rw-rw-r-- 1 brandonfowler brandonfowler    898 Oct 16 13:52 linkedList.c~
+-rw-rw-r-- 1 brandonfowler brandonfowler    545 Oct 16 15:22 linkedList.h
+-rw-rw-r-- 1 brandonfowler brandonfowler    545 Oct 16 13:53 linkedList.h~
+-rw-r--r-- 1 brandonfowler brandonfowler    134 Oct 16 15:11 makefile
+-rw-r--r-- 1 brandonfowler brandonfowler    112 Oct 16 15:07 makefile~
+-rwxrwxr-x 1 brandonfowler brandonfowler  46184 Oct 16 18:40 mysh
+-rw-rw---- 1 brandonfowler brandonfowler     12 Oct 16 18:45 out2.txt
+-rw-rw---- 1 brandonfowler brandonfowler   1992 Oct 16 18:45 out.txt
+-rw-rw-r-- 1 brandonfowler brandonfowler      0 Oct 16 18:42 prefs.myshrc
+-rw-rw-r-- 1 brandonfowler brandonfowler     81 Oct 16 16:13 prefs.myshrc~
+-rw-rw-r-- 1 brandonfowler brandonfowler    117 Oct 16 14:24 wazza.myshrc~
+?: ls
+cscd340_f14_hw2.pdf	cscd340hw2output.txt  example~	     mysh
+cscd340hw2.c		cscd340lab3prob1.c~   linkedList.c   out2.txt
+cscd340hw2.c~		cscd340lab3prob2.c~   linkedList.c~  out.txt
+cscd340hw2functions.c	cscd340lab3prob3.c~   linkedList.h   prefs.myshrc
+cscd340hw2functions.c~	cscd340lab4prob1.c~   linkedList.h~  prefs.myshrc~
+cscd340hw2.h		cscd340lab4prob3.c~   makefile	     wazza.myshrc~
+cscd340hw2.h~		cscd340lab4prob4.c~   makefile~
+?: !!
+cscd340_f14_hw2.pdf	cscd340hw2output.txt  example~	     mysh
+cscd340hw2.c		cscd340lab3prob1.c~   linkedList.c   out2.txt
+cscd340hw2.c~		cscd340lab3prob2.c~   linkedList.c~  out.txt
+cscd340hw2functions.c	cscd340lab3prob3.c~   linkedList.h   prefs.myshrc
+cscd340hw2functions.c~	cscd340lab4prob1.c~   linkedList.h~  prefs.myshrc~
+cscd340hw2.h		cscd340lab4prob3.c~   makefile	     wazza.myshrc~
+cscd340hw2.h~		cscd340lab4prob4.c~   makefile~
+?: name=Brandon
+?: echo $name
+Brandon
+?: echo $PATH
+/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games
+?: PATH=$PATH:/someDir
+?: echo $PATH
+/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/someDir
+?: pwd
+/home/brandonfowler/Desktop
+?: cd ..
+?: pwd
+/home/brandonfowler
+?: cd Desktop
+?: pwd
+/home/brandonfowler/Desktop
+?: exit
+

@@ -1,0 +1,19 @@
+      String T = ("Drop Procedure if exists getNumber;");
+      statement.executeUpdate(T);
+      
+      String Q =("CREATE PROCEDURE getNumber"+
+                "(IN D varChar(100), "+
+                "OUT Itotal int, "+
+                "OUT Stotal int) "+
+                "BEGIN "+
+                "SELECT count(ID) "+
+                "INTO Itotal "+
+                "FROM department NATURAL JOIN instructor "+
+                "WHERE dept_name = D; "+
+                "SELECT count(ID) "+
+                "INTO Stotal "+
+                "FROM department NATURAL JOIN student "+
+                "WHERE dept_name = D; "+
+                "END;");
+  
+      statement.executeUpdate(Q);

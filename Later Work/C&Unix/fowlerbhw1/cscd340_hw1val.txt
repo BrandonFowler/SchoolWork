@@ -1,0 +1,65 @@
+brandonfowler@The-Console-Ubuntu:~/Desktop$ valgrind ./Hw1
+==4071== Memcheck, a memory error detector
+==4071== Copyright (C) 2002-2013, and GNU GPL'd, by Julian Seward et al.
+==4071== Using Valgrind-3.10.0.SVN and LibVEX; rerun with -h for copyright info
+==4071== Command: ./Hw1
+==4071== 
+What is the input file name?:input.txt
+Your options are
+1. Print the list
+2. Add first
+3. Add last
+4. Sort the list(Ascending order)
+5. Delete a word
+6. Quit-
+Choose:1
+zeebra
+a
+aardvark
+aback
+abacus
+skull
+abaft
+abalone
+abandon
+frog
+abandoned
+abase
+abash
+abate
+azure
+b
+babble
+babe
+log
+babel
+baboon
+babushka
+baby
+smoke
+baccalaureate
+pen
+bacchanalia
+bachelor
+rock
+bacillus
+back
+aid
+Your options are
+1. Print the list
+2. Add first
+3. Add last
+4. Sort the list(Ascending order)
+5. Delete a word
+6. Quit-
+Choose:6
+==4071== 
+==4071== HEAP SUMMARY:
+==4071==     in use at exit: 0 bytes in 0 blocks
+==4071==   total heap usage: 66 allocs, 66 frees, 4,296 bytes allocated
+==4071== 
+==4071== All heap blocks were freed -- no leaks are possible
+==4071== 
+==4071== For counts of detected and suppressed errors, rerun with: -v
+==4071== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+

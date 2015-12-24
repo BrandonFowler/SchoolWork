@@ -1,0 +1,211 @@
+brandonfowler@The-Console-Ubuntu:~/Desktop$ ./Hw1
+What is the input file name?:input.txt
+Your options are
+1. Print the list
+2. Add first
+3. Add last
+4. Sort the list(Ascending order)
+5. Delete a word
+6. Quit-
+Choose:1
+zeebra
+a
+aardvark
+aback
+abacus
+skull
+abaft
+abalone
+abandon
+frog
+abandoned
+abase
+abash
+abate
+azure
+b
+babble
+babe
+log
+babel
+baboon
+babushka
+baby
+smoke
+baccalaureate
+pen
+bacchanalia
+bachelor
+rock
+bacillus
+back
+aid
+Your options are
+1. Print the list
+2. Add first
+3. Add last
+4. Sort the list(Ascending order)
+5. Delete a word
+6. Quit-
+Choose:2
+Please enter the word you would like to add:grape
+Your options are
+1. Print the list
+2. Add first
+3. Add last
+4. Sort the list(Ascending order)
+5. Delete a word
+6. Quit-
+Choose:3
+Please enter the word you would like to add:sauce
+Your options are
+1. Print the list
+2. Add first
+3. Add last
+4. Sort the list(Ascending order)
+5. Delete a word
+6. Quit-
+Choose:1
+grape
+zeebra
+a
+aardvark
+aback
+abacus
+skull
+abaft
+abalone
+abandon
+frog
+abandoned
+abase
+abash
+abate
+azure
+b
+babble
+babe
+log
+babel
+baboon
+babushka
+baby
+smoke
+baccalaureate
+pen
+bacchanalia
+bachelor
+rock
+bacillus
+back
+aid
+sauce
+Your options are
+1. Print the list
+2. Add first
+3. Add last
+4. Sort the list(Ascending order)
+5. Delete a word
+6. Quit-
+Choose:4
+Your options are
+1. Print the list
+2. Add first
+3. Add last
+4. Sort the list(Ascending order)
+5. Delete a word
+6. Quit-
+Choose:1
+a
+aardvark
+aback
+abacus
+abaft
+abalone
+abandon
+abandoned
+abase
+abash
+abate
+aid
+azure
+b
+babble
+babe
+babel
+baboon
+babushka
+baby
+baccalaureate
+bacchanalia
+bachelor
+bacillus
+back
+frog
+grape
+log
+pen
+rock
+sauce
+skull
+smoke
+zeebra
+Your options are
+1. Print the list
+2. Add first
+3. Add last
+4. Sort the list(Ascending order)
+5. Delete a word
+6. Quit-
+Choose:5
+What item would you like to remove?:grape
+Your options are
+1. Print the list
+2. Add first
+3. Add last
+4. Sort the list(Ascending order)
+5. Delete a word
+6. Quit-
+Choose:1
+a
+aardvark
+aback
+abacus
+abaft
+abalone
+abandon
+abandoned
+abase
+abash
+abate
+aid
+azure
+b
+babble
+babe
+babel
+baboon
+babushka
+baby
+baccalaureate
+bacchanalia
+bachelor
+bacillus
+back
+frog
+log
+pen
+rock
+sauce
+skull
+smoke
+zeebra
+Your options are
+1. Print the list
+2. Add first
+3. Add last
+4. Sort the list(Ascending order)
+5. Delete a word
+6. Quit-
+Choose:6
+

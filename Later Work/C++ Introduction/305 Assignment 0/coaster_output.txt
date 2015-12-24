@@ -1,0 +1,12 @@
+1
+2
+3
+2
+1
+20
+Invalid input was entered and will be skipped
+1
+1
+1
+1
+1000

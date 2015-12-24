@@ -1,0 +1,131 @@
+//Class: CSCD260
+//Name: Brandon Fowler
+//Assignment: Lab 1
+
+module main();
+	reg i0, i1;
+	reg dd0, dd1;
+	wire out, d0, d1, d2, d3;
+	decoder Decoder(i1, i0, d0, d1, d2, d3);
+	alu ALU(d0, d1, d2, d3, dd0, dd1, out);
+	initial
+		begin
+			$display("---------------------");
+			$display("Or Gates:");
+			$display("---------------------");
+			
+			$display("i0=0; i1=0; dd0=0; dd1 =0;");
+			i0=0; i1=0; dd0=0; dd1 =0;
+			#10
+			$display("Result: %b",out);
+			
+			$display("i0=0; i1=0; dd0=0; dd1 =1;");
+			i0=0; i1=0; dd0=0; dd1 =1;
+			#10
+			$display("Result: %b",out);
+			
+			$display("i0=0; i1=0; dd0=1; dd1 =0;");
+			i0=0; i1=0; dd0=1; dd1 =0;
+			#10
+			$display("Result: %b",out);
+			
+			$display("i0=0; i1=0; dd0=1; dd1 =1;");
+			i0=0; i1=0; dd0=1; dd1 =1;
+			#10
+			$display("Result: %b",out);
+			
+			$display("---------------------");
+			$display("Xor Gates:");
+			$display("---------------------");
+			
+			$display("i1=1; i0=0; dd0=0; dd1 =0;");
+			i0=0; i1=1; dd0=0; dd1 =0;
+			#10
+			$display("Result: %b",out);
+			
+			$display("i1=1; i0=0; dd0=0; dd1 =1;");
+			i0=0; i1=1; dd0=0; dd1 =1;
+			#10
+			$display("Result: %b",out);
+			
+			$display("i1=1; i0=0; dd0=1; dd1 =0;");
+			i0=0; i1=1; dd0=1; dd1 =0;
+			#10
+			$display("Result: %b",out);
+			
+			$display("i1=1; i0=0; dd0=1; dd1 =1;");
+			i0=0; i1=1; dd0=1; dd1 =1;
+			#10
+			$display("Result: %b",out);
+			
+			$display("---------------------");
+			$display("And Gates:");
+			$display("---------------------");
+			
+			$display("i1=0; i0=1; dd0=0; dd1 =0;");
+			i0=1; i1=0; dd0=0; dd1 =0;
+			#10
+			$display("Result: %b",out);
+			
+			$display("i1=0; i0=1; dd0=0; dd1 =1;");
+			i0=1; i1=0; dd0=0; dd1 =1;
+			#10
+			$display("Result: %b",out);
+
+			$display("i1=0; i0=1; dd0=1; dd1 =0;");
+			i0=1; i1=0; dd0=1; dd1 =0;
+			#10
+			$display("Result: %b",out);
+			
+			$display("i1=0; i0=1; dd0=1; dd1 =1;");
+			i0=1; i1=0; dd0=1; dd1 =1;
+			#10
+			$display("Result: %b",out);
+			
+			$display("---------------------");
+			$display("Not Gates(Inverting dd0):");
+			$display("---------------------");
+			
+			$display("i0=1; i1=1; dd0=0; dd1 =0;");
+			i0=1; i1=1; dd0=0; dd1 =0;
+			#10
+			$display("Result: %b",out);
+			
+			$display("i0=1; i1=1; dd0=0; dd1 =1;");
+			i0=1; i1=1; dd0=0; dd1 =1;
+			#10
+			$display("Result: %b",out);
+			
+			$display("i0=1; i1=1; dd0=1; dd1 =0;");
+			i0=1; i1=1; dd0=1; dd1 =0;
+			#10
+			$display("Result: %b",out);
+			
+			$display("i0=1; i1=1; dd0=1; dd1 =1;");
+			i0=1; i1=1; dd0=1; dd1 =1;
+			#10
+			$display("Result: %b",out);
+			
+			$finish;
+	end
+endmodule
+
+module decoder(i1, i0, d0, d1, d2, d3);
+	input i0, i1;
+	output d0, d1, d2, d3;
+	assign d0=(~i1)&(~i0);
+	assign d1=(~i1)&i0;
+	assign d2=i1&(~i0);
+	assign d3=i1&i0;
+endmodule
+
+module alu(d0, d1, d2, d3, dd0, dd1, out);
+	input d0, d1, d2, d3;
+	input dd0, dd1;
+	output out;
+	assign out0 = d0&(dd0|dd1);
+	assign out1 = d1&(dd0&dd1);
+	assign out2 = d2&((dd0&(~dd1)) | ((~dd0)&dd1));
+	assign out3 = d3&(~dd0);
+	assign out=out0|out1|out2|out3;
+endmodule

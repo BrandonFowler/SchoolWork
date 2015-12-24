@@ -1,0 +1,835 @@
+
+========================First Run==============================================
+
+Please enter your first big integer: 123456
+
+Please enter your second big integer: 654321
+
+Your options are: 
+ 0.Quit this program
+ 1.Change first big integer
+ 2.Change second big integer
+ 3.View first big integer
+ 4.View second big integer
+ 5.Test first integer > second integer
+ 6.Test first integer < second integer
+ 7.Test first integer >= second integer
+ 8.Test first integer <= second integer
+ 9.Test first integer == second integer
+10.Test first integer != second integer
+11.Test first integer + second integer
+12.Test first integer - second integer
+13.Test first integer * second integer
+Choose the number of your option(example: 1): 5
+
+The first integer is not greater than the second
+
+Your options are: 
+ 0.Quit this program
+ 1.Change first big integer
+ 2.Change second big integer
+ 3.View first big integer
+ 4.View second big integer
+ 5.Test first integer > second integer
+ 6.Test first integer < second integer
+ 7.Test first integer >= second integer
+ 8.Test first integer <= second integer
+ 9.Test first integer == second integer
+10.Test first integer != second integer
+11.Test first integer + second integer
+12.Test first integer - second integer
+13.Test first integer * second integer
+Choose the number of your option(example: 1): 6
+
+The first integer is less than the second
+
+Your options are: 
+ 0.Quit this program
+ 1.Change first big integer
+ 2.Change second big integer
+ 3.View first big integer
+ 4.View second big integer
+ 5.Test first integer > second integer
+ 6.Test first integer < second integer
+ 7.Test first integer >= second integer
+ 8.Test first integer <= second integer
+ 9.Test first integer == second integer
+10.Test first integer != second integer
+11.Test first integer + second integer
+12.Test first integer - second integer
+13.Test first integer * second integer
+Choose the number of your option(example: 1): 7
+
+The first integer is not greater than or equal to the second
+
+Your options are: 
+ 0.Quit this program
+ 1.Change first big integer
+ 2.Change second big integer
+ 3.View first big integer
+ 4.View second big integer
+ 5.Test first integer > second integer
+ 6.Test first integer < second integer
+ 7.Test first integer >= second integer
+ 8.Test first integer <= second integer
+ 9.Test first integer == second integer
+10.Test first integer != second integer
+11.Test first integer + second integer
+12.Test first integer - second integer
+13.Test first integer * second integer
+Choose the number of your option(example: 1): 8
+
+The first integer is less than or equal to the second
+
+Your options are: 
+ 0.Quit this program
+ 1.Change first big integer
+ 2.Change second big integer
+ 3.View first big integer
+ 4.View second big integer
+ 5.Test first integer > second integer
+ 6.Test first integer < second integer
+ 7.Test first integer >= second integer
+ 8.Test first integer <= second integer
+ 9.Test first integer == second integer
+10.Test first integer != second integer
+11.Test first integer + second integer
+12.Test first integer - second integer
+13.Test first integer * second integer
+Choose the number of your option(example: 1): 9
+
+The first integer is not equal to the second
+
+Your options are: 
+ 0.Quit this program
+ 1.Change first big integer
+ 2.Change second big integer
+ 3.View first big integer
+ 4.View second big integer
+ 5.Test first integer > second integer
+ 6.Test first integer < second integer
+ 7.Test first integer >= second integer
+ 8.Test first integer <= second integer
+ 9.Test first integer == second integer
+10.Test first integer != second integer
+11.Test first integer + second integer
+12.Test first integer - second integer
+13.Test first integer * second integer
+Choose the number of your option(example: 1): 10
+
+The first integer is not equal to the second
+
+Your options are: 
+ 0.Quit this program
+ 1.Change first big integer
+ 2.Change second big integer
+ 3.View first big integer
+ 4.View second big integer
+ 5.Test first integer > second integer
+ 6.Test first integer < second integer
+ 7.Test first integer >= second integer
+ 8.Test first integer <= second integer
+ 9.Test first integer == second integer
+10.Test first integer != second integer
+11.Test first integer + second integer
+12.Test first integer - second integer
+13.Test first integer * second integer
+Choose the number of your option(example: 1): 11
+
+The result is: 777777
+
+Your options are: 
+ 0.Quit this program
+ 1.Change first big integer
+ 2.Change second big integer
+ 3.View first big integer
+ 4.View second big integer
+ 5.Test first integer > second integer
+ 6.Test first integer < second integer
+ 7.Test first integer >= second integer
+ 8.Test first integer <= second integer
+ 9.Test first integer == second integer
+10.Test first integer != second integer
+11.Test first integer + second integer
+12.Test first integer - second integer
+13.Test first integer * second integer
+Choose the number of your option(example: 1): 12
+
+The result is: -530865
+
+Your options are: 
+ 0.Quit this program
+ 1.Change first big integer
+ 2.Change second big integer
+ 3.View first big integer
+ 4.View second big integer
+ 5.Test first integer > second integer
+ 6.Test first integer < second integer
+ 7.Test first integer >= second integer
+ 8.Test first integer <= second integer
+ 9.Test first integer == second integer
+10.Test first integer != second integer
+11.Test first integer + second integer
+12.Test first integer - second integer
+13.Test first integer * second integer
+Choose the number of your option(example: 1): 13
+
+The product is: 80779853376
+
+Your options are: 
+ 0.Quit this program
+ 1.Change first big integer
+ 2.Change second big integer
+ 3.View first big integer
+ 4.View second big integer
+ 5.Test first integer > second integer
+ 6.Test first integer < second integer
+ 7.Test first integer >= second integer
+ 8.Test first integer <= second integer
+ 9.Test first integer == second integer
+10.Test first integer != second integer
+11.Test first integer + second integer
+12.Test first integer - second integer
+13.Test first integer * second integer
+Choose the number of your option(example: 1): 0
+
+Bye
+
+========================Second Run==============================================
+
+Please enter your first big integer: 9999
+
+Please enter your second big integer: 9999
+
+Your options are: 
+ 0.Quit this program
+ 1.Change first big integer
+ 2.Change second big integer
+ 3.View first big integer
+ 4.View second big integer
+ 5.Test first integer > second integer
+ 6.Test first integer < second integer
+ 7.Test first integer >= second integer
+ 8.Test first integer <= second integer
+ 9.Test first integer == second integer
+10.Test first integer != second integer
+11.Test first integer + second integer
+12.Test first integer - second integer
+13.Test first integer * second integer
+Choose the number of your option(example: 1): 5
+
+The first integer is not greater than the second
+
+Your options are: 
+ 0.Quit this program
+ 1.Change first big integer
+ 2.Change second big integer
+ 3.View first big integer
+ 4.View second big integer
+ 5.Test first integer > second integer
+ 6.Test first integer < second integer
+ 7.Test first integer >= second integer
+ 8.Test first integer <= second integer
+ 9.Test first integer == second integer
+10.Test first integer != second integer
+11.Test first integer + second integer
+12.Test first integer - second integer
+13.Test first integer * second integer
+Choose the number of your option(example: 1): 6
+
+The first integer is not less than the second
+
+Your options are: 
+ 0.Quit this program
+ 1.Change first big integer
+ 2.Change second big integer
+ 3.View first big integer
+ 4.View second big integer
+ 5.Test first integer > second integer
+ 6.Test first integer < second integer
+ 7.Test first integer >= second integer
+ 8.Test first integer <= second integer
+ 9.Test first integer == second integer
+10.Test first integer != second integer
+11.Test first integer + second integer
+12.Test first integer - second integer
+13.Test first integer * second integer
+Choose the number of your option(example: 1): 7
+
+The first integer is greater than or equal to the second
+
+Your options are: 
+ 0.Quit this program
+ 1.Change first big integer
+ 2.Change second big integer
+ 3.View first big integer
+ 4.View second big integer
+ 5.Test first integer > second integer
+ 6.Test first integer < second integer
+ 7.Test first integer >= second integer
+ 8.Test first integer <= second integer
+ 9.Test first integer == second integer
+10.Test first integer != second integer
+11.Test first integer + second integer
+12.Test first integer - second integer
+13.Test first integer * second integer
+Choose the number of your option(example: 1): 8
+
+The first integer is less than or equal to the second
+
+Your options are: 
+ 0.Quit this program
+ 1.Change first big integer
+ 2.Change second big integer
+ 3.View first big integer
+ 4.View second big integer
+ 5.Test first integer > second integer
+ 6.Test first integer < second integer
+ 7.Test first integer >= second integer
+ 8.Test first integer <= second integer
+ 9.Test first integer == second integer
+10.Test first integer != second integer
+11.Test first integer + second integer
+12.Test first integer - second integer
+13.Test first integer * second integer
+Choose the number of your option(example: 1): 9
+
+The first integer is equal to the second
+
+Your options are: 
+ 0.Quit this program
+ 1.Change first big integer
+ 2.Change second big integer
+ 3.View first big integer
+ 4.View second big integer
+ 5.Test first integer > second integer
+ 6.Test first integer < second integer
+ 7.Test first integer >= second integer
+ 8.Test first integer <= second integer
+ 9.Test first integer == second integer
+10.Test first integer != second integer
+11.Test first integer + second integer
+12.Test first integer - second integer
+13.Test first integer * second integer
+Choose the number of your option(example: 1): 10
+
+The first integer is equal to the second
+
+Your options are: 
+ 0.Quit this program
+ 1.Change first big integer
+ 2.Change second big integer
+ 3.View first big integer
+ 4.View second big integer
+ 5.Test first integer > second integer
+ 6.Test first integer < second integer
+ 7.Test first integer >= second integer
+ 8.Test first integer <= second integer
+ 9.Test first integer == second integer
+10.Test first integer != second integer
+11.Test first integer + second integer
+12.Test first integer - second integer
+13.Test first integer * second integer
+Choose the number of your option(example: 1): 11
+
+The result is: 19998
+
+Your options are: 
+ 0.Quit this program
+ 1.Change first big integer
+ 2.Change second big integer
+ 3.View first big integer
+ 4.View second big integer
+ 5.Test first integer > second integer
+ 6.Test first integer < second integer
+ 7.Test first integer >= second integer
+ 8.Test first integer <= second integer
+ 9.Test first integer == second integer
+10.Test first integer != second integer
+11.Test first integer + second integer
+12.Test first integer - second integer
+13.Test first integer * second integer
+Choose the number of your option(example: 1): 12
+
+The result is: 0
+
+Your options are: 
+ 0.Quit this program
+ 1.Change first big integer
+ 2.Change second big integer
+ 3.View first big integer
+ 4.View second big integer
+ 5.Test first integer > second integer
+ 6.Test first integer < second integer
+ 7.Test first integer >= second integer
+ 8.Test first integer <= second integer
+ 9.Test first integer == second integer
+10.Test first integer != second integer
+11.Test first integer + second integer
+12.Test first integer - second integer
+13.Test first integer * second integer
+Choose the number of your option(example: 1): 13
+
+The product is: 99980001
+
+Your options are: 
+ 0.Quit this program
+ 1.Change first big integer
+ 2.Change second big integer
+ 3.View first big integer
+ 4.View second big integer
+ 5.Test first integer > second integer
+ 6.Test first integer < second integer
+ 7.Test first integer >= second integer
+ 8.Test first integer <= second integer
+ 9.Test first integer == second integer
+10.Test first integer != second integer
+11.Test first integer + second integer
+12.Test first integer - second integer
+13.Test first integer * second integer
+Choose the number of your option(example: 1): 0
+
+Bye
+
+========================Third Run==============================================
+
+Please enter your first big integer: -9876543
+
+Please enter your second big integer: 3456789
+
+Your options are: 
+ 0.Quit this program
+ 1.Change first big integer
+ 2.Change second big integer
+ 3.View first big integer
+ 4.View second big integer
+ 5.Test first integer > second integer
+ 6.Test first integer < second integer
+ 7.Test first integer >= second integer
+ 8.Test first integer <= second integer
+ 9.Test first integer == second integer
+10.Test first integer != second integer
+11.Test first integer + second integer
+12.Test first integer - second integer
+13.Test first integer * second integer
+Choose the number of your option(example: 1): 5
+
+The first integer is not greater than the second
+
+Your options are: 
+ 0.Quit this program
+ 1.Change first big integer
+ 2.Change second big integer
+ 3.View first big integer
+ 4.View second big integer
+ 5.Test first integer > second integer
+ 6.Test first integer < second integer
+ 7.Test first integer >= second integer
+ 8.Test first integer <= second integer
+ 9.Test first integer == second integer
+10.Test first integer != second integer
+11.Test first integer + second integer
+12.Test first integer - second integer
+13.Test first integer * second integer
+Choose the number of your option(example: 1): 6
+
+The first integer is less than the second
+
+Your options are: 
+ 0.Quit this program
+ 1.Change first big integer
+ 2.Change second big integer
+ 3.View first big integer
+ 4.View second big integer
+ 5.Test first integer > second integer
+ 6.Test first integer < second integer
+ 7.Test first integer >= second integer
+ 8.Test first integer <= second integer
+ 9.Test first integer == second integer
+10.Test first integer != second integer
+11.Test first integer + second integer
+12.Test first integer - second integer
+13.Test first integer * second integer
+Choose the number of your option(example: 1): 7
+
+The first integer is not greater than or equal to the second
+
+Your options are: 
+ 0.Quit this program
+ 1.Change first big integer
+ 2.Change second big integer
+ 3.View first big integer
+ 4.View second big integer
+ 5.Test first integer > second integer
+ 6.Test first integer < second integer
+ 7.Test first integer >= second integer
+ 8.Test first integer <= second integer
+ 9.Test first integer == second integer
+10.Test first integer != second integer
+11.Test first integer + second integer
+12.Test first integer - second integer
+13.Test first integer * second integer
+Choose the number of your option(example: 1): 8
+
+The first integer is less than or equal to the second
+
+Your options are: 
+ 0.Quit this program
+ 1.Change first big integer
+ 2.Change second big integer
+ 3.View first big integer
+ 4.View second big integer
+ 5.Test first integer > second integer
+ 6.Test first integer < second integer
+ 7.Test first integer >= second integer
+ 8.Test first integer <= second integer
+ 9.Test first integer == second integer
+10.Test first integer != second integer
+11.Test first integer + second integer
+12.Test first integer - second integer
+13.Test first integer * second integer
+Choose the number of your option(example: 1): 9
+
+The first integer is not equal to the second
+
+Your options are: 
+ 0.Quit this program
+ 1.Change first big integer
+ 2.Change second big integer
+ 3.View first big integer
+ 4.View second big integer
+ 5.Test first integer > second integer
+ 6.Test first integer < second integer
+ 7.Test first integer >= second integer
+ 8.Test first integer <= second integer
+ 9.Test first integer == second integer
+10.Test first integer != second integer
+11.Test first integer + second integer
+12.Test first integer - second integer
+13.Test first integer * second integer
+Choose the number of your option(example: 1): 10
+
+The first integer is not equal to the second
+
+Your options are: 
+ 0.Quit this program
+ 1.Change first big integer
+ 2.Change second big integer
+ 3.View first big integer
+ 4.View second big integer
+ 5.Test first integer > second integer
+ 6.Test first integer < second integer
+ 7.Test first integer >= second integer
+ 8.Test first integer <= second integer
+ 9.Test first integer == second integer
+10.Test first integer != second integer
+11.Test first integer + second integer
+12.Test first integer - second integer
+13.Test first integer * second integer
+Choose the number of your option(example: 1): 11
+
+The result is: -6419754
+
+Your options are: 
+ 0.Quit this program
+ 1.Change first big integer
+ 2.Change second big integer
+ 3.View first big integer
+ 4.View second big integer
+ 5.Test first integer > second integer
+ 6.Test first integer < second integer
+ 7.Test first integer >= second integer
+ 8.Test first integer <= second integer
+ 9.Test first integer == second integer
+10.Test first integer != second integer
+11.Test first integer + second integer
+12.Test first integer - second integer
+13.Test first integer * second integer
+Choose the number of your option(example: 1): 12
+ 
+The result is: -13333332
+
+Your options are: 
+ 0.Quit this program
+ 1.Change first big integer
+ 2.Change second big integer
+ 3.View first big integer
+ 4.View second big integer
+ 5.Test first integer > second integer
+ 6.Test first integer < second integer
+ 7.Test first integer >= second integer
+ 8.Test first integer <= second integer
+ 9.Test first integer == second integer
+10.Test first integer != second integer
+11.Test first integer + second integer
+12.Test first integer - second integer
+13.Test first integer * second integer
+Choose the number of your option(example: 1): 13
+
+The product is: -34141125200427
+
+Your options are: 
+ 0.Quit this program
+ 1.Change first big integer
+ 2.Change second big integer
+ 3.View first big integer
+ 4.View second big integer
+ 5.Test first integer > second integer
+ 6.Test first integer < second integer
+ 7.Test first integer >= second integer
+ 8.Test first integer <= second integer
+ 9.Test first integer == second integer
+10.Test first integer != second integer
+11.Test first integer + second integer
+12.Test first integer - second integer
+13.Test first integer * second integer
+Choose the number of your option(example: 1): 1
+
+Please enter your first big integer: -999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999
+
+Your options are: 
+ 0.Quit this program
+ 1.Change first big integer
+ 2.Change second big integer
+ 3.View first big integer
+ 4.View second big integer
+ 5.Test first integer > second integer
+ 6.Test first integer < second integer
+ 7.Test first integer >= second integer
+ 8.Test first integer <= second integer
+ 9.Test first integer == second integer
+10.Test first integer != second integer
+11.Test first integer + second integer
+12.Test first integer - second integer
+13.Test first integer * second integer
+Choose the number of your option(example: 1): 2
+
+Please enter your second big integer: 999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999
+
+Your options are: 
+ 0.Quit this program
+ 1.Change first big integer
+ 2.Change second big integer
+ 3.View first big integer
+ 4.View second big integer
+ 5.Test first integer > second integer
+ 6.Test first integer < second integer
+ 7.Test first integer >= second integer
+ 8.Test first integer <= second integer
+ 9.Test first integer == second integer
+10.Test first integer != second integer
+11.Test first integer + second integer
+12.Test first integer - second integer
+13.Test first integer * second integer
+Choose the number of your option(example: 1): 3
+
+-999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999
+
+Your options are: 
+ 0.Quit this program
+ 1.Change first big integer
+ 2.Change second big integer
+ 3.View first big integer
+ 4.View second big integer
+ 5.Test first integer > second integer
+ 6.Test first integer < second integer
+ 7.Test first integer >= second integer
+ 8.Test first integer <= second integer
+ 9.Test first integer == second integer
+10.Test first integer != second integer
+11.Test first integer + second integer
+12.Test first integer - second integer
+13.Test first integer * second integer
+Choose the number of your option(example: 1): 4
+
+999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999
+
+Your options are: 
+ 0.Quit this program
+ 1.Change first big integer
+ 2.Change second big integer
+ 3.View first big integer
+ 4.View second big integer
+ 5.Test first integer > second integer
+ 6.Test first integer < second integer
+ 7.Test first integer >= second integer
+ 8.Test first integer <= second integer
+ 9.Test first integer == second integer
+10.Test first integer != second integer
+11.Test first integer + second integer
+12.Test first integer - second integer
+13.Test first integer * second integer
+Choose the number of your option(example: 1): 5
+
+The first integer is not greater than the second
+
+Your options are: 
+ 0.Quit this program
+ 1.Change first big integer
+ 2.Change second big integer
+ 3.View first big integer
+ 4.View second big integer
+ 5.Test first integer > second integer
+ 6.Test first integer < second integer
+ 7.Test first integer >= second integer
+ 8.Test first integer <= second integer
+ 9.Test first integer == second integer
+10.Test first integer != second integer
+11.Test first integer + second integer
+12.Test first integer - second integer
+13.Test first integer * second integer
+Choose the number of your option(example: 1): 6
+
+The first integer is less than the second
+
+Your options are: 
+ 0.Quit this program
+ 1.Change first big integer
+ 2.Change second big integer
+ 3.View first big integer
+ 4.View second big integer
+ 5.Test first integer > second integer
+ 6.Test first integer < second integer
+ 7.Test first integer >= second integer
+ 8.Test first integer <= second integer
+ 9.Test first integer == second integer
+10.Test first integer != second integer
+11.Test first integer + second integer
+12.Test first integer - second integer
+13.Test first integer * second integer
+Choose the number of your option(example: 1): 7
+
+The first integer is not greater than or equal to the second
+
+Your options are: 
+ 0.Quit this program
+ 1.Change first big integer
+ 2.Change second big integer
+ 3.View first big integer
+ 4.View second big integer
+ 5.Test first integer > second integer
+ 6.Test first integer < second integer
+ 7.Test first integer >= second integer
+ 8.Test first integer <= second integer
+ 9.Test first integer == second integer
+10.Test first integer != second integer
+11.Test first integer + second integer
+12.Test first integer - second integer
+13.Test first integer * second integer
+Choose the number of your option(example: 1): 8
+
+The first integer is less than or equal to the second
+
+Your options are: 
+ 0.Quit this program
+ 1.Change first big integer
+ 2.Change second big integer
+ 3.View first big integer
+ 4.View second big integer
+ 5.Test first integer > second integer
+ 6.Test first integer < second integer
+ 7.Test first integer >= second integer
+ 8.Test first integer <= second integer
+ 9.Test first integer == second integer
+10.Test first integer != second integer
+11.Test first integer + second integer
+12.Test first integer - second integer
+13.Test first integer * second integer
+Choose the number of your option(example: 1): 9
+
+The first integer is not equal to the second
+
+Your options are: 
+ 0.Quit this program
+ 1.Change first big integer
+ 2.Change second big integer
+ 3.View first big integer
+ 4.View second big integer
+ 5.Test first integer > second integer
+ 6.Test first integer < second integer
+ 7.Test first integer >= second integer
+ 8.Test first integer <= second integer
+ 9.Test first integer == second integer
+10.Test first integer != second integer
+11.Test first integer + second integer
+12.Test first integer - second integer
+13.Test first integer * second integer
+Choose the number of your option(example: 1): 10
+
+The first integer is not equal to the second
+
+Your options are: 
+ 0.Quit this program
+ 1.Change first big integer
+ 2.Change second big integer
+ 3.View first big integer
+ 4.View second big integer
+ 5.Test first integer > second integer
+ 6.Test first integer < second integer
+ 7.Test first integer >= second integer
+ 8.Test first integer <= second integer
+ 9.Test first integer == second integer
+10.Test first integer != second integer
+11.Test first integer + second integer
+12.Test first integer - second integer
+13.Test first integer * second integer
+Choose the number of your option(example: 1): 11
+
+The result is: 0
+
+Your options are: 
+ 0.Quit this program
+ 1.Change first big integer
+ 2.Change second big integer
+ 3.View first big integer
+ 4.View second big integer
+ 5.Test first integer > second integer
+ 6.Test first integer < second integer
+ 7.Test first integer >= second integer
+ 8.Test first integer <= second integer
+ 9.Test first integer == second integer
+10.Test first integer != second integer
+11.Test first integer + second integer
+12.Test first integer - second integer
+13.Test first integer * second integer
+Choose the number of your option(example: 1): 12
+
+The result is: -1999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999998
+
+Your options are: 
+ 0.Quit this program
+ 1.Change first big integer
+ 2.Change second big integer
+ 3.View first big integer
+ 4.View second big integer
+ 5.Test first integer > second integer
+ 6.Test first integer < second integer
+ 7.Test first integer >= second integer
+ 8.Test first integer <= second integer
+ 9.Test first integer == second integer
+10.Test first integer != second integer
+11.Test first integer + second integer
+12.Test first integer - second integer
+13.Test first integer * second integer
+Choose the number of your option(example: 1): 13
+
+The product is: -999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999998000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001
+
+Your options are: 
+ 0.Quit this program
+ 1.Change first big integer
+ 2.Change second big integer
+ 3.View first big integer
+ 4.View second big integer
+ 5.Test first integer > second integer
+ 6.Test first integer < second integer
+ 7.Test first integer >= second integer
+ 8.Test first integer <= second integer
+ 9.Test first integer == second integer
+10.Test first integer != second integer
+11.Test first integer + second integer
+12.Test first integer - second integer
+13.Test first integer * second integer
+Choose the number of your option(example: 1):0
+ 
+Bye
