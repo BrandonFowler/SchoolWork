@@ -1,0 +1,61 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.fowler.brandon.bafowlerlab6.MainFragment">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Hello"
+        android:id="@+id/NameTextView"
+        android:layout_gravity="center_horizontal|top"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="10dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="false"
+        android:textSize="22dp"
+        android:typeface="sans"
+        android:textColor="#000000" />
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/WelcomeText"
+        android:layout_alignLeft="@+id/NameTextView"
+        android:layout_alignStart="@+id/NameTextView"
+        android:text="Welcome"
+        android:layout_below="@+id/NameTextView"
+        android:textSize="22dp"
+        android:typeface="sans"
+        android:textColor="#000000" />
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="May we suggest the following desktop background for you?"
+        android:id="@+id/SeggestionText"
+        android:layout_below="@+id/WelcomeText"
+        android:layout_alignLeft="@+id/WelcomeText"
+        android:layout_alignStart="@+id/WelcomeText"
+        android:textSize="22dp"
+        android:typeface="sans"
+        android:textColor="#000000" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageSuggestion"
+        android:src="@drawable/def"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/SeggestionText"
+        android:layout_alignStart="@+id/SeggestionText"
+        android:scaleType="fitEnd"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="60dp" />
+</RelativeLayout>
